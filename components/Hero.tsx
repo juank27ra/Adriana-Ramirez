@@ -44,7 +44,7 @@ export default function Hero() {
                 en imagen Neurológica
                 <br />
                 <br />
-                Atención psicológica respaldada por el{" "}
+                Atención psicológica avalada por el{" "}
                 <a
                   href="https://www.colpsic.org.co/"
                   target="_blank"
@@ -53,8 +53,8 @@ export default function Hero() {
                 >
                   Colegio Colombiano de Psicólogos (COLPSIC)
                 </a>
-                , garantizando ética, profesionalismo y confianza en cada
-                proceso.
+                , con más de 10 años de experiencia garantizando ética,
+                profesionalismo y confianza en cada proceso.
               </p>
               <p className="text-sm sm:text-base text-muted-foreground">
                 Espacio seguro y confidencial para encontrar el equilibrio y el

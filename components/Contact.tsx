@@ -1,40 +1,11 @@
 "use client";
-import { useState } from "react";
-import { Mail, Phone, MapPin, Send, Clock } from "lucide-react";
+import { Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitMessage, setSubmitMessage] = useState("");
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-  ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitMessage("");
-
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-
-    console.log("Form submitted:", formData);
-    setSubmitMessage("¡Mensaje enviado con éxito! Te contactaré pronto.");
-    setFormData({ name: "", email: "", phone: "", message: "" });
-    setIsSubmitting(false);
-
-    setTimeout(() => setSubmitMessage(""), 5000);
-  };
+  const phoneNumber = "573124758174";
+  const whatsappMessage =
+    "Hola Consultorio Dra. Luz Adriana Ramírez P., me gustaría agendar una cita.";
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <section
@@ -61,19 +32,24 @@ export default function Contact() {
 
               <div className="space-y-4 sm:space-y-6">
                 <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
-                    <Phone className="text-primary" size={20} />
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-500/10 rounded-lg flex items-center justify-center shrink-0">
+                    <MessageCircle className="text-green-600" size={20} />
                   </div>
                   <div>
                     <p className="font-medium text-foreground mb-1 text-sm sm:text-base">
-                      Teléfono
+                      WhatsApp
                     </p>
                     <a
-                      href="tel:+573124758174"
-                      className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors"
+                      href={whatsappUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm sm:text-base text-muted-foreground hover:text-green-600 transition-colors"
                     >
-                      +57 312 475 8174
+                      57 312 475 8174
                     </a>
+                    <p className="text-xs text-green-600 mt-1 font-medium">
+                      ✓ Solo mensajes de WhatsApp, no llamadas.
+                    </p>
                   </div>
                 </div>
 
@@ -128,111 +104,51 @@ export default function Contact() {
           </div>
 
           <div>
-            <div className="bg-white border border-border rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg">
-              <h3 className="text-xl sm:text-2xl font-semibold text-foreground mb-4 sm:mb-6">
-                Envíame un Mensaje
-              </h3>
-
-              <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
-                <div>
-                  <label
-                    htmlFor="name"
-                    className="block text-foreground mb-2 text-sm sm:text-base"
-                  >
-                    Nombre Completo
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
-                    placeholder="Tu nombre"
-                  />
+            <div className="bg-linear-to-br from-green-50 to-white border-2 border-green-200 rounded-xl sm:rounded-2xl p-6 sm:p-8 md:p-10 shadow-xl">
+              <div className="text-center space-y-4 sm:space-y-6">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto shadow-lg">
+                  <MessageCircle className="text-white" size={36} />
                 </div>
 
-                <div>
-                  <label
-                    htmlFor="email"
-                    className="block text-foreground mb-2 text-sm sm:text-base"
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
-                    placeholder="tu@email.com"
-                  />
+                <div className="space-y-2 sm:space-y-3">
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
+                    ¡Agenda Tu Cita por WhatsApp!
+                  </h3>
+                  <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-md mx-auto leading-relaxed">
+                    Escríbenos y con gusto te atenderemos. Respondemos
+                    rápidamente para agendar tu cita.
+                  </p>
                 </div>
 
-                <div>
-                  <label
-                    htmlFor="phone"
-                    className="block text-foreground mb-2 text-sm sm:text-base"
-                  >
-                    Teléfono
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
-                    placeholder="+57 300 123 4567"
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-foreground mb-2 text-sm sm:text-base"
-                  >
-                    Mensaje
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    rows={5}
-                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all resize-none"
-                    placeholder="Cuéntame cómo puedo ayudarte..."
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full bg-primary text-primary-foreground px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base rounded-lg hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {isSubmitting ? (
-                    <>
-                      <div className="w-4 h-4 sm:w-5 sm:h-5 border-2 border-primary-foreground/30 border-t-primary-foreground rounded-full animate-spin"></div>
-                      Enviando...
-                    </>
-                  ) : (
-                    <>
-                      Enviar Mensaje
-                      <Send size={18} className="sm:w-5 sm:h-5" />
-                    </>
-                  )}
-                </button>
-
-                {submitMessage && (
-                  <div className="bg-green-50 border border-green-200 text-green-800 px-3 sm:px-4 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base">
-                    {submitMessage}
+                <div className="bg-white rounded-lg p-4 sm:p-6 shadow-md">
+                  <p className="text-xs sm:text-sm text-muted-foreground mb-3 sm:mb-4">
+                    Horario de atención por WhatsApp:
+                  </p>
+                  <div className="space-y-1.5 sm:space-y-2 text-sm sm:text-base text-foreground">
+                    <p>📅 Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+                    <p>📅 Sábados: 9:00 AM - 3:00 PM</p>
                   </div>
-                )}
-              </form>
+                </div>
+
+                <a
+                  href={whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white px-8 sm:px-10 md:px-12 py-4 sm:py-5 rounded-xl sm:rounded-2xl transition-all duration-300 shadow-2xl hover:shadow-green-500/50 hover:scale-105 w-full sm:w-auto"
+                >
+                  <MessageCircle
+                    className="group-hover:scale-110 transition-transform"
+                    size={28}
+                  />
+                  <span className="text-base sm:text-lg md:text-xl font-semibold">
+                    Escribir por WhatsApp
+                  </span>
+                </a>
+
+                <p className="text-xs sm:text-sm text-muted-foreground italic">
+                  💬 Respuesta rápida y garantizada en horario de atención
+                </p>
+              </div>
             </div>
           </div>
         </div>
