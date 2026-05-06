@@ -37,10 +37,11 @@ export default function Hero() {
 
             <div className="space-y-3 sm:space-y-4">
               <p className="text-base sm:text-lg text-foreground/90 leading-relaxed">
-                Magister en Neuropsicología Clínica, Magister en Dirección y
-                Gestión de Recursos Humanos, Magister en Coaching, Inteligencia
-                Emocional y PNL, Magister en Hipnosis Clínica y Relajación,
-                Maestrante en Neurociencia e investigación en imagen Neurológica
+                Psicóloga, Enfermera, Magister en Neuropsicología Clínica,
+                Magister en Dirección y Gestión de Recursos Humanos, Magister en
+                Coaching, Inteligencia Emocional y PNL, Magister en Hipnosis
+                Clínica y Relajación, Maestrante en Neurociencia e investigación
+                en imagen Neurológica
                 <br />
                 <br />
                 Atención psicológica respaldada por el{" "}

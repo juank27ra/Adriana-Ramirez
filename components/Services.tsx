@@ -4,9 +4,9 @@ import { Heart, Users, Brain, Sparkles, UserCheck, Home } from "lucide-react";
 const services = [
   {
     icon: Heart,
-    title: "Valoracion Psicológica y Neuropsicológica",
+    title: "Valoración Psicológica y Neuropsicológica",
     description:
-      "Evaluacion y diagnostico de las condiciones psicológicas y neuropsicológicas del paciente",
+      "Evaluación y diagnostico de las condiciones psicológicas y neuropsicológicas del paciente",
   },
   {
     icon: Users,
@@ -18,7 +18,7 @@ const services = [
     icon: Brain,
     title: "Psicoterapia",
     description:
-      "Sesiones personalizadas enfocadas en el tratamiento del bienestar emocional y la rehabilitación de condiciones neurológicas.",
+      "Sesiones personalizadas enfocadas en el tratamiento del bienestar emocional y la rehabilitación de condiciones neuropsicológicas.",
   },
   {
     icon: Sparkles,
@@ -30,7 +30,7 @@ const services = [
     icon: UserCheck,
     title: "Coaching y Mentoring Organizacional",
     description:
-      "Procesos de desarrollo empresarial que potencian el talento humano y mejoran el desempeño para el logro de objetivos",
+      "Procesos de desarrollo empresarial; que potencian el talento humano y mejoran el desempeño para el logro de objetivos",
   },
   {
     icon: Home,
@@ -49,8 +49,9 @@ export default function Services() {
             Servicios Profesionales
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Brindamos atención Psicológica, Neuropsicológica especializada,
-            Conferencias, Capacitaciones y asesorias
+            Diagnóstico, tratamiento y acompañamiento de las condiciones
+            psicológicas y neuropsicológicas. conferencias, capacitaciones,
+            asesorías entre otros.
           </p>
         </div>
 

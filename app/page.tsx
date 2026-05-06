@@ -63,7 +63,9 @@ export default function Page() {
               <span className="hidden sm:inline">
                 Consultorio Dra. Luz Adriana Ramírez P.
               </span>
-              <span className="sm:hidden">Consultorio Dra. L. A. Ramírez</span>
+              <span className="sm:hidden">
+                Consultorio Dra. Luz Adriana Ramírez P.
+              </span>
             </button>
 
             <button
