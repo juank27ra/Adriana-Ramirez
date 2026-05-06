@@ -53,8 +53,8 @@ export default function Education() {
             Formación Académica
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Capacitación continua y especialización para brindar el mejor
-            servicio profesional
+            Capacitación continua y profunda para brindar el mejor servicio
+            profesional
           </p>
         </div>
 

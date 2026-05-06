@@ -60,8 +60,10 @@ export default function Page() {
               className="text-base sm:text-lg md:text-xl font-semibold text-primary hover:opacity-80 transition-opacity"
               aria-label="Ir a inicio"
             >
-              <span className="hidden sm:inline">Dra. Luz Adriana Ramírez</span>
-              <span className="sm:hidden">Dra. L. A. Ramírez</span>
+              <span className="hidden sm:inline">
+                Consultorio Dra. Luz Adriana Ramírez P.
+              </span>
+              <span className="sm:hidden">Consultorio Dra. L. A. Ramírez</span>
             </button>
 
             <button

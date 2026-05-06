@@ -18,25 +18,40 @@ export const metadata: Metadata = {
     template: "%s | Psicóloga en Pitalito",
   },
 
-  description: "Psicóloga clínica profesional en Pitalito, Huila.",
+  description: "Psicología y neuropsicologia clínica en Pitalito, Huila.",
 
   keywords: [
     "psicóloga Pitalito",
     "psicóloga Huila",
+    "psicóloga Colombia",
     "terapia psicológica",
+    "estrés",
+    "autoestima",
+    "duelo",
     "ansiedad",
     "depresión",
     "terapia",
+    "tratamiento psicológico",
+    "psicología clínica",
+    "psicología",
+    "neuropsicología",
+    "psicoterapia",
+    "Salud Mental",
+    "gestión emocional",
+    "alcoholimo",
+    "consumo de sustancias",
+    "drogadicción",
   ],
 
   authors: [
     {
-      name: "Dra. Luz Adriana Ramírez",
+      name: "Dra. Luz Adriana Ramírez P.",
+      url: "https://tusitio.com",
     },
   ],
 
   openGraph: {
-    title: "Dra. Luz Adriana Ramírez",
+    title: "Dra. Luz Adriana Ramírez P.",
     description: "Atención psicológica profesional en Pitalito.",
     type: "website",
     locale: "es_CO",
@@ -51,12 +66,6 @@ export const metadata: Metadata = {
   },
 
   metadataBase: new URL("https://tusitio.com"),
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Dra. Luz Adriana Ramírez",
-    description: "Psicóloga profesional en Pitalito",
-  },
 
   alternates: {
     canonical: "https://tusitio.com",

@@ -4,39 +4,39 @@ import { Heart, Users, Brain, Sparkles, UserCheck, Home } from "lucide-react";
 const services = [
   {
     icon: Heart,
-    title: "Terapia Individual",
+    title: "Valoracion Psicológica y Neuropsicológica",
     description:
-      "Sesiones personalizadas enfocadas en tu bienestar emocional, manejo de ansiedad, depresión y estrés.",
+      "Evaluacion y diagnostico de las condiciones psicológicas y neuropsicológicas del paciente",
   },
   {
     icon: Users,
-    title: "Terapia de Pareja",
+    title: "Dirección y Gestión de Recursos Humanos",
     description:
-      "Acompañamiento para mejorar la comunicación y fortalecer las relaciones afectivas.",
+      "Desarrollo estrategico enfocado en atraer, desarrollar y retener el talento para alcanzar los objetivos organizacionales",
   },
   {
     icon: Brain,
-    title: "Salud Mental",
+    title: "Psicoterapia",
     description:
-      "Diagnóstico y tratamiento de trastornos emocionales y conductuales con enfoque integral.",
+      "Sesiones personalizadas enfocadas en el tratamiento del bienestar emocional y la rehabilitación de condiciones neurológicas.",
   },
   {
     icon: Sparkles,
-    title: "Desarrollo Personal",
+    title: "Aplicación de Pruebas Psicométricas",
     description:
-      "Proceso de autoconocimiento y crecimiento personal para alcanzar tus metas y potencial.",
+      "Evaluación y medición de rasgos, dimensiones y aspectos de la personalidad, así como las cualificaciones de habilidades, destrezas y valores de la persona",
   },
   {
     icon: UserCheck,
-    title: "Terapia Adolescentes",
+    title: "Coaching y Mentoring Organizacional",
     description:
-      "Apoyo especializado para adolescentes en etapas de cambio y desarrollo emocional.",
+      "Procesos de desarrollo empresarial que potencian el talento humano y mejoran el desempeño para el logro de objetivos",
   },
   {
     icon: Home,
-    title: "Orientación Familiar",
+    title: "Asesorías",
     description:
-      "Asesoramiento para mejorar la dinámica familiar y resolver conflictos del hogar.",
+      "Evaluación de rutas de atención que faciliten los procesos clínicos, organizacionales y jurídicos",
   },
 ];
 
@@ -49,8 +49,8 @@ export default function Services() {
             Servicios Profesionales
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Brindo atención psicológica, humana y especializada, desde la ética,
-            enfocada en ayudarte
+            Brindamos atención Psicológica, Neuropsicológica especializada,
+            Conferencias, Capacitaciones y asesorias
           </p>
         </div>
 

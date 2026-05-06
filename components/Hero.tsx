@@ -28,18 +28,19 @@ export default function Hero() {
           <div className="space-y-4 sm:space-y-6 order-2 lg:order-1">
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
-                Dra. Luz Adriana Ramírez
+                Dra. Luz Adriana Ramírez P.
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground">
-                Psicóloga Magister
+                Psicoterapeuta/Neuropsicóloga
               </p>
             </div>
 
             <div className="space-y-3 sm:space-y-4">
               <p className="text-base sm:text-lg text-foreground/90 leading-relaxed">
-                Magister en neuro-psicología clínica, magister en dirección y
-                gestión de recursos humanos, magister en coaching, inteligencia
-                emocional y PNL; Magister en hipnosis clínica y relajación
+                Magister en Neuropsicología Clínica, Magister en Dirección y
+                Gestión de Recursos Humanos, Magister en Coaching, Inteligencia
+                Emocional y PNL, Magister en Hipnosis Clínica y Relajación,
+                Maestrante en Neurociencia e investigación en imagen Neurológica
                 <br />
                 <br />
                 Atención psicológica respaldada por el{" "}
@@ -52,7 +53,7 @@ export default function Hero() {
                   Colegio Colombiano de Psicólogos (COLPSIC)
                 </a>
                 , garantizando ética, profesionalismo y confianza en cada
-                proceso terapéutico
+                proceso.
               </p>
               <p className="text-sm sm:text-base text-muted-foreground">
                 Espacio seguro y confidencial para encontrar el equilibrio y el
@@ -80,12 +81,13 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative order-1 lg:order-2">
-            <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-xl sm:shadow-2xl max-w-md mx-auto lg:max-w-none ">
+          <div className="relative order-1 lg:order-2 ">
+            <div className="relative  rounded-xl sm:rounded-2xl overflow-hidden shadow-xl sm:shadow-2xl max-w-md mx-auto lg:max-w-none ">
               <Image
                 src={AdrianaRamirez}
                 alt="Dra. Luz Adriana Ramírez - Psicóloga profesional"
                 className="w-full h-auto h-max-[600px] object-cover aspect-3/4"
+                priority
               />
             </div>
             <div className="absolute -bottom-4 sm:-bottom-6 -right-4 sm:-right-6 w-32 h-32 sm:w-48 sm:h-48 bg-primary/10 rounded-full blur-3xl -z-10"></div>

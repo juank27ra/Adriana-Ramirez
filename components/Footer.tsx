@@ -32,12 +32,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
           <div>
             <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
-              Dra. Luz Adriana Ramírez
+              Consultorio Dra. Luz Adriana Ramírez P.
             </h3>
             <p className="text-primary-foreground/80 text-xs sm:text-sm leading-relaxed">
-              Psicóloga clínica especializada en terapia individual, de pareja,
-              organizacional y jurídica. Comprometida con tu bienestar
-              emocional.
+              Psicoterapeuta y Neuropsicóloga Clínica especializada.
+              Comprometida con tu bienestar emocional y organizacional.
             </p>
           </div>
 
@@ -161,7 +160,7 @@ export default function Footer() {
         <div className="border-t border-primary-foreground/20 pt-6 sm:pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4">
             <p className="text-primary-foreground/80 text-xs sm:text-sm text-center md:text-left">
-              © {currentYear} Dra. Luz Adriana Ramírez. Todos los derechos
+              © {currentYear} Dra. Luz Adriana Ramírez P. Todos los derechos
               reservados.
             </p>
             <p className="text-primary-foreground/80 text-xs sm:text-sm flex items-center gap-1">

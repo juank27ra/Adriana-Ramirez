@@ -4,7 +4,7 @@ import { MessageCircle } from "lucide-react";
 export default function WhatsAppButton() {
   const phoneNumber = "573124758174";
   const message =
-    "Hola consultorio de la Dra. Luz Adriana, me gustaría agendar una cita.";
+    "Hola consultorio de la Dra. Luz Adriana Ramirez P. me gustaría agendar una cita.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (

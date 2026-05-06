@@ -47,7 +47,7 @@ export default function Contact() {
             Contáctame
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Dar el primer paso puede cambiar tu vida. Estoy aquí para
+            Dar el primer paso puede cambiar tu vida. Estamos aquí para
             acompañarte en tu proceso
           </p>
         </div>
@@ -119,7 +119,7 @@ export default function Contact() {
                     <p className="text-sm sm:text-base text-muted-foreground">
                       Lunes a Viernes: 8:00 AM - 6:00 PM
                       <br />
-                      Sábados: 9:00 AM - 1:00 PM
+                      Sábados: 9:00 AM - 3:00 PM
                     </p>
                   </div>
                 </div>
