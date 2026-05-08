@@ -8,6 +8,7 @@ import {
   //Linkedin,
   Heart,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -32,7 +33,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
           <div>
             <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
-              Consultorio Dra. Luz Adriana Ramírez P.
+              Ψ Consultorio Dra. Luz Adriana Ramírez P.
             </h3>
             <p className="text-primary-foreground/80 text-xs sm:text-sm leading-relaxed">
               Psicoterapeuta y Neuropsicóloga Clínica especializada.
@@ -142,13 +143,19 @@ export default function Footer() {
                 {/*<Instagram size={18} className="sm:w-5 sm:h-5" />*/}
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/luz-adriana-ramirez-p-a59b62185/?skipRedirect=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-full flex items-center justify-center transition-all hover:scale-110"
                 aria-label="LinkedIn"
               >
-                {/*<Linkedin size={18} className="sm:w-5 sm:h-5" />*/}
+                {/* <Image
+                  src="../app/assets/linkedin.svg"
+                  alt="LinkedIn"
+                  width={20}
+                  height={20}
+                />
+                <Linkedin size={18} className="sm:w-5 sm:h-5" />*/}
               </a>
             </div>
             <p className="text-primary-foreground/80 text-xs sm:text-sm mt-3 sm:mt-4">

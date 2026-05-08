@@ -17,13 +17,13 @@ const testimonials = [
   },
   {
     name: "Atte. Belén cardoso",
-    role: "Paciente",
+    role: "Empresaria",
     text: "Primero le doy gracias a Dios y en segundo a la doctora Luz adriana Ramirez Que con su calidad humana y su profesionalismo como psicoterapeuta me ayudó en mi proceso de autoconocimiento en el manejo de la gestión emocional por un trastorno mixto de ansiedad y depresión sus herramientas me ayudaron a recuperar mi calidad de vida emocional mil gracias doc Adriana",
     rating: 5,
   },
   {
-    name: "Atte. Sra Belén Y Sr James Mendez",
-    role: "Empresaria y Policía",
+    name: "Atte. Sr James Mendez",
+    role: "Empresario y Policía",
     text: "La Dra luz adriana me ayudó en un proceso de autoconocimiento y en el manejo de la gestión emocional por un trastorno mixto de ansiedad y depresión. Dónde  Sus herramientas y experiencia me ayudaron a recuperar mi bienestar emocional y el de mi familia",
     rating: 5,
   },
@@ -50,8 +50,8 @@ export default function Testimonials() {
             Testimonios
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Lo que dicen quienes han encontrado bienestar con mi acompañamiento
-            profesional
+            Lo que dicen quienes han encontrado bienestar con nuestro
+            acompañamiento profesional
           </p>
         </div>
 

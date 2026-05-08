@@ -12,13 +12,13 @@ const education = [
   {
     icon: Syringe,
     year: "2013",
-    title: "Aux. en Enfermería ",
+    title: "Enfermería",
     institution: "Cesalud",
     description: "",
   },
   {
     icon: Brain,
-    year: "2018",
+    year: "2017",
     title: "Psicología",
     institution: "Corporación Universitaria Minuto de Dios",
     description: "Título profesional en Psicología",
@@ -34,7 +34,7 @@ const education = [
     icon: Award,
     year: "2019",
     title: " Master en Neuropsicología Clínica ",
-    institution: " Esneca Business School (España)",
+    institution: "Esneca Business School (España)",
     description: "",
   },
   {
