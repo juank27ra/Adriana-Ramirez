@@ -1,5 +1,12 @@
 "use client";
-import { Heart, Users, Brain, Sparkles, UserCheck, Home } from "lucide-react";
+import {
+  Heart,
+  Users,
+  Brain,
+  ClipboardCheck,
+  UserCheck,
+  Briefcase,
+} from "lucide-react";
 
 const services = [
   {
@@ -21,7 +28,7 @@ const services = [
       "Sesiones personalizadas enfocadas en el tratamiento del bienestar emocional y la rehabilitación de condiciones neuropsicológicas.",
   },
   {
-    icon: Sparkles,
+    icon: ClipboardCheck,
     title: "Aplicación de Pruebas Psicométricas",
     description:
       "Evaluación y medición de rasgos, dimensiones y aspectos de la personalidad, así como las cualificaciones de habilidades, destrezas y valores de la persona",
@@ -33,7 +40,7 @@ const services = [
       "Procesos de desarrollo empresarial; que potencian el talento humano y mejoran el desempeño para el logro de objetivos",
   },
   {
-    icon: Home,
+    icon: Briefcase,
     title: "Asesorías",
     description:
       "Evaluación de rutas de atención que faciliten los procesos clínicos, organizacionales y jurídicos",

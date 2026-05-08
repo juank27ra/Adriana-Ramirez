@@ -1,43 +1,55 @@
 "use client";
-import { GraduationCap, Award, BookOpen, BadgeCheck } from "lucide-react";
+import {
+  GraduationCap,
+  Syringe,
+  Brain,
+  Award,
+  BookOpen,
+  BookOpenText,
+} from "lucide-react";
 
 const education = [
   {
-    icon: GraduationCap,
-    year: "2015",
+    icon: Syringe,
+    year: "2013",
+    title: "Aux. en Enfermería ",
+    institution: "Cesalud",
+    description: "",
+  },
+  {
+    icon: Brain,
+    year: "2018",
     title: "Psicología",
-    institution: "Universidad Minuto de Dios",
-    description:
-      "Título profesional en Psicología con énfasis en Psicología Clínica y de la Salud",
+    institution: "Corporación Universitaria Minuto de Dios",
+    description: "Título profesional en Psicología",
+  },
+  {
+    icon: BookOpenText,
+    year: "2018",
+    title: "Magister en dirección de Recursos Humanos",
+    institution: "EUDE Business School (Madrid) ",
+    description: "",
   },
   {
     icon: Award,
-    year: "2018",
-    title: "Maestría en Terapia Cognitivo-Conductual",
-    institution: "Universidad Rey Juan Carlos",
-    description:
-      "Formación especializada en técnicas de intervención cognitivo-conductual",
+    year: "2019",
+    title: " Master en Neuropsicología Clínica ",
+    institution: " Esneca Business School (España)",
+    description: "",
   },
   {
     icon: BookOpen,
-    year: "2020",
-    title: "Magister en dirección y gestión de recursos humanos",
-    institution: "Pontificia Universidad Javeriana",
-    description: "Estudios avanzados en terapia sistémica familiar",
+    year: "2021",
+    title: "Master en Coaching, inteligencia Emocional y PNL.",
+    institution: "ISEB. Instituto Superior Europeo de Barcelona (España) ",
+    description: "",
   },
   {
-    icon: BadgeCheck,
-    year: "2022",
-    title: "Magister en neuro-psicología clínica",
-    institution: "Instituto Colombiano de Psicología",
-    description: "Técnicas de atención plena aplicadas a la práctica clínica",
-  },
-  {
-    icon: BookOpen,
-    year: "2022",
-    title: "magister en coaching, inteligencia emocional y PNL",
-    institution: "Instituto Colombiano de Psicología",
-    description: "Técnicas de atención plena aplicadas a la práctica clínica",
+    icon: GraduationCap,
+    year: "2023",
+    title: " Master en Hipnosis Clínica y Relajación. ",
+    institution: "TECH. Universidad tecnológica",
+    description: "",
   },
 ];
 
