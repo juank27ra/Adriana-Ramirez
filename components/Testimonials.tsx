@@ -4,27 +4,27 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "María González",
-    role: "Paciente",
-    text: "La Dra. Luz Adriana me ayudó a superar mi ansiedad con un trato profesional y muy humano. Sus técnicas me permitieron recuperar mi bienestar emocional.",
+    name: "Atte. Leidy Vergara.",
+    role: "Contadora pública",
+    text: "Afrontar el sufrimiento causado por la pérdida de un ser querido, puede ser perturbador cuando no se cuenta con las herramientas necesarias para superar el duelo; este suceso  fue un detonante que cambió mi vida; gracias al profesionalismo de la doctora Luz Adriana RAmirez, he logrado restablecer mi equilibrio emocional",
     rating: 5,
   },
   {
-    name: "Carlos Martínez",
-    role: "Paciente",
-    text: "Excelente profesional. Las sesiones de terapia de pareja con la doctora transformaron nuestra relación. Totalmente recomendada.",
+    name: "Atte. Eliana Segura ",
+    role: "Contadora Pública.",
+    text: "El proceso con la doctora Adriana Ramírez me ayudó con mi problema de ansiedad, depresión y demás dificultades de salud mental con los que llegue a buscarla, gracias a su profesionalismo y herramientas inculcadas durante dicho proceso se creó en mí la fuerza necesaria para mirar la vida con entusiasmo, felicidad y amor, creando en mí razones para vivir una vida más plena. Solo tengo gratitud y cariño hacia ella, deseando siempre éxitos y bendiciones en su vida profesional y personal.",
     rating: 5,
   },
   {
-    name: "Ana Rodríguez",
-    role: "Paciente",
-    text: "Un espacio seguro y confidencial donde pude trabajar mi desarrollo personal. La doctora es empática y muy profesional.",
+    name: "Atte. Belén cardoso",
+    role: "Empresaria",
+    text: "Primero le doy gracias a Dios y en segundo a la doctora Luz adriana Ramirez Que con su calidad humana y su profesionalismo como psicoterapeuta me ayudó en mi proceso de autoconocimiento en el manejo de la gestión emocional por un trastorno mixto de ansiedad y depresión sus herramientas me ayudaron a recuperar mi calidad de vida emocional mil gracias doc Adriana",
     rating: 5,
   },
   {
-    name: "Jorge Pérez",
-    role: "Paciente",
-    text: "Mi hijo adolescente mejoró significativamente con las sesiones. La Dra. Ramírez tiene un don especial para conectar con los jóvenes.",
+    name: "Atte. Sr James Mendez",
+    role: "Empresario y Policía",
+    text: "La Dra luz adriana me ayudó en un proceso de autoconocimiento y en el manejo de la gestión emocional por un trastorno mixto de ansiedad y depresión. Dónde  Sus herramientas y experiencia me ayudaron a recuperar mi bienestar emocional y el de mi familia",
     rating: 5,
   },
 ];
@@ -50,8 +50,8 @@ export default function Testimonials() {
             Testimonios
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Lo que dicen quienes han encontrado bienestar con mi acompañamiento
-            profesional
+            Lo que dicen quienes han encontrado bienestar con nuestro
+            acompañamiento profesional
           </p>
         </div>
 
@@ -59,9 +59,9 @@ export default function Testimonials() {
           <div className="bg-linear-to-br from-blue-50 to-white border border-border rounded-xl sm:rounded-2xl p-6 sm:p-8 md:p-12 shadow-xl">
             <Quote className="text-primary/20 mb-3 sm:mb-4" size={36} />
 
-            <div className="min-h-[180px] sm:min-h-[200px] flex flex-col justify-center">
+            <div className="min-h-45 sm:min-h-50 flex flex-col justify-center">
               <p className="text-base sm:text-lg md:text-xl text-foreground leading-relaxed mb-4 sm:mb-6">
-                `{testimonials[currentIndex].text}`
+                {testimonials[currentIndex].text}
               </p>
 
               <div className="flex items-center gap-1 mb-3 sm:mb-4">

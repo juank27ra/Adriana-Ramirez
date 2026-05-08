@@ -53,7 +53,7 @@ export default function Header() {
               aria-label="Ir a inicio"
             >
               <span className="hidden sm:inline">
-                Consultorio Dra. Luz Adriana Ramírez P.
+                Ψ Consultorio Dra. Luz Adriana Ramírez P.
               </span>
               <span className="sm:hidden">
                 Consultorio Dra. Luz Adriana Ramírez P.

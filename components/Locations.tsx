@@ -64,7 +64,9 @@ export default function Location() {
                   Contáctame para más información sobre ubicación y horarios
                 </p>
                 <a
-                  href="tel:+573124758174"
+                  href="https://wa.me/573124758174"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full bg-white text-primary px-4 py-2 sm:py-2.5 rounded-lg hover:bg-white/90 transition-colors text-sm sm:text-base"
                 >
                   Escribir Ahora

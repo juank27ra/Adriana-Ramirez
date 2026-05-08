@@ -2,6 +2,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import AdrianaRamirez from "../app/assets/Adriana Ramirez.webp";
+import AdrianaRamirez2 from "../app/assets/Adriana Ramirez2.webp";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -81,14 +82,17 @@ export default function Hero() {
               </button>
             </div>
           </div>
-
-          <div className="relative order-1 lg:order-2 ">
-            <div className="relative  rounded-xl sm:rounded-2xl overflow-hidden shadow-xl sm:shadow-2xl max-w-md mx-auto lg:max-w-none ">
+          <div className="relative order-1 lg:order-2">
+            <div className="relative h-[90%] rounded-xl sm:rounded-2xl overflow-hidden shadow-xl sm:shadow-2xl max-w-xs sm:max-w-md mx-auto lg:max-w-none">
+              <Image
+                src={AdrianaRamirez2}
+                alt="Dra. Luz Adriana Ramírez p.- Psicóloga profesional"
+                className="w-full h-auto object-cover aspect-3/4 md:hidden"
+              />
               <Image
                 src={AdrianaRamirez}
-                alt="Dra. Luz Adriana Ramírez - Psicóloga profesional"
-                className="w-full h-auto h-max-[600px] object-cover aspect-3/4"
-                priority
+                alt="Dra. Luz Adriana Ramírez P.- Psicóloga profesional"
+                className="w-full h-auto 2xl:h-212.5 xl:h-212.5 object-cover aspect-3/4 hidden md:block"
               />
             </div>
             <div className="absolute -bottom-4 sm:-bottom-6 -right-4 sm:-right-6 w-32 h-32 sm:w-48 sm:h-48 bg-primary/10 rounded-full blur-3xl -z-10"></div>
