@@ -1,15 +1,9 @@
 "use client";
-import {
-  Mail,
-  Phone,
-  MapPin,
-  //Facebook,
-  //Instagram,
-  //Linkedin,
-  Heart,
-} from "lucide-react";
+import { Mail, Phone, MapPin, Heart } from "lucide-react";
 import Image from "next/image";
-
+import facebook from "../app/assets/facebook.svg";
+import instagram from "../app/assets/instagram.svg";
+import linkedin from "../app/assets/linkedin.svg";
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -131,7 +125,7 @@ export default function Footer() {
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-full flex items-center justify-center transition-all hover:scale-110"
                 aria-label="Facebook"
               >
-                {/*<Facebook size={18} className="sm:w-5 sm:h-5" />*/}
+                <Image src={facebook} alt="Facebook" width={24} height={24} />
               </a>
               <a
                 href="https://instagram.com"
@@ -140,7 +134,7 @@ export default function Footer() {
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-full flex items-center justify-center transition-all hover:scale-110"
                 aria-label="Instagram"
               >
-                {/*<Instagram size={18} className="sm:w-5 sm:h-5" />*/}
+                <Image src={instagram} alt="instagram" width={24} height={24} />
               </a>
               <a
                 href="https://www.linkedin.com/in/luz-adriana-ramirez-p-a59b62185/?skipRedirect=true"
@@ -149,13 +143,7 @@ export default function Footer() {
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-full flex items-center justify-center transition-all hover:scale-110"
                 aria-label="LinkedIn"
               >
-                {/* <Image
-                  src="../app/assets/linkedin.svg"
-                  alt="LinkedIn"
-                  width={20}
-                  height={20}
-                />
-                <Linkedin size={18} className="sm:w-5 sm:h-5" />*/}
+                <Image src={linkedin} alt="LinkedIn" width={24} height={24} />
               </a>
             </div>
             <p className="text-primary-foreground/80 text-xs sm:text-sm mt-3 sm:mt-4">

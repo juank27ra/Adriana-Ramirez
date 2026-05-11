@@ -31,9 +31,9 @@ export default function Hero() {
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
                 Dra. Luz Adriana Ramírez P.
               </h1>
-              <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground">
+              <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground">
                 Psicoterapeuta/Neuropsicóloga
-              </p>
+              </h2>
             </div>
 
             <div className="space-y-3 sm:space-y-4">
@@ -88,11 +88,13 @@ export default function Hero() {
                 src={AdrianaRamirez2}
                 alt="Dra. Luz Adriana Ramírez p.- Psicóloga profesional"
                 className="w-full h-auto object-cover aspect-3/4 md:hidden"
+                priority
               />
               <Image
                 src={AdrianaRamirez}
                 alt="Dra. Luz Adriana Ramírez P.- Psicóloga profesional"
                 className="w-full h-auto 2xl:h-212.5 xl:h-212.5 object-cover aspect-3/4 hidden md:block"
+                priority
               />
             </div>
             <div className="absolute -bottom-4 sm:-bottom-6 -right-4 sm:-right-6 w-32 h-32 sm:w-48 sm:h-48 bg-primary/10 rounded-full blur-3xl -z-10"></div>
