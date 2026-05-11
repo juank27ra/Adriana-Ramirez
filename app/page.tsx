@@ -8,10 +8,12 @@ import Locations from "@/components/Locations";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppBotton";
 import Contact from "@/components/Contact";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function Page() {
   return (
     <>
+      <Analytics />
       <Header />
       <Hero />
       <Services />
