@@ -6,25 +6,25 @@ const testimonials = [
   {
     name: "Atte. Leidy Vergara.",
     role: "Contadora pública",
-    text: "Afrontar el sufrimiento causado por la pérdida de un ser querido, puede ser perturbador cuando no se cuenta con las herramientas necesarias para superar el duelo; este suceso  fue un detonante que cambió mi vida; gracias al profesionalismo de la doctora Luz Adriana RAmirez, he logrado restablecer mi equilibrio emocional",
+    text: "Afrontar el sufrimiento causado por la pérdida de un ser querido, puede ser perturbador cuando no se cuenta con las herramientas necesarias para superar el duelo; este suceso  fue un detonante que cambió mi vida; gracias al profesionalismo de la doctora Luz Adriana Ramírez, he logrado restablecer mi equilibrio emocional.",
     rating: 5,
   },
   {
     name: "Atte. Eliana Segura ",
     role: "Contadora Pública.",
-    text: "El proceso con la doctora Adriana Ramírez me ayudó con mi problema de ansiedad, depresión y demás dificultades de salud mental con los que llegue a buscarla, gracias a su profesionalismo y herramientas inculcadas durante dicho proceso se creó en mí la fuerza necesaria para mirar la vida con entusiasmo, felicidad y amor, creando en mí razones para vivir una vida más plena. Solo tengo gratitud y cariño hacia ella, deseando siempre éxitos y bendiciones en su vida profesional y personal.",
+    text: "El proceso con la doctora Adriana Ramírez me ayudó con mi problema de ansiedad, depresión y demás dificultades de salud mental con los que llegué a buscarla, gracias a su profesionalismo y herramientas inculcadas durante dicho proceso se creó en mí la fuerza necesaria para mirar la vida con entusiasmo, felicidad y amor, creando en mí razones para vivir una vida más plena. Solo tengo gratitud y cariño hacia ella, deseando siempre éxitos y bendiciones en su vida profesional y personal.",
     rating: 5,
   },
   {
     name: "Atte. Belén cardoso",
     role: "Empresaria",
-    text: "Primero le doy gracias a Dios y en segundo a la doctora Luz adriana Ramirez Que con su calidad humana y su profesionalismo como psicoterapeuta me ayudó en mi proceso de autoconocimiento en el manejo de la gestión emocional por un trastorno mixto de ansiedad y depresión sus herramientas me ayudaron a recuperar mi calidad de vida emocional mil gracias doc Adriana",
+    text: "Primero le doy gracias a Dios y en segundo a la doctora Luz adriana Ramirez Que con su calidad humana y su profesionalismo como psicoterapeuta me ayudó en mi proceso de autoconocimiento en el manejo de la gestión emocional por un trastorno mixto de ansiedad y depresión sus herramientas me ayudaron a recuperar mi calidad de vida emocional mil gracias doc Adriana.",
     rating: 5,
   },
   {
     name: "Atte. Sr James Mendez",
     role: "Empresario y Policía",
-    text: "La Dra luz adriana me ayudó en un proceso de autoconocimiento y en el manejo de la gestión emocional por un trastorno mixto de ansiedad y depresión. Dónde  Sus herramientas y experiencia me ayudaron a recuperar mi bienestar emocional y el de mi familia",
+    text: "La Dra luz Adriana me ayudó en un proceso de autoconocimiento y en el manejo de la gestión emocional por un trastorno mixto de ansiedad y depresión, donde sus herramientas y experiencia me ayudaron a recuperar mi bienestar emocional y el de mi familia.",
     rating: 5,
   },
 ];

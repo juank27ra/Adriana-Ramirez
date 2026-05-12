@@ -10,31 +10,17 @@ import {
 
 const education = [
   {
-    icon: Syringe,
-    year: "2013",
-    title: "Enfermería",
-    institution: "Cesalud",
-    description: "",
-  },
-  {
     icon: Brain,
-    year: "2017",
-    title: "Psicología",
-    institution: "Corporación Universitaria Minuto de Dios",
-    description: "Título profesional en Psicología",
-  },
-  {
-    icon: BookOpenText,
-    year: "2018",
-    title: "Magister en dirección de Recursos Humanos",
-    institution: "EUDE Business School (Madrid) ",
+    year: "2026",
+    title: " Maestra en neurociencia e investigación en la imagen neurológica ",
+    institution: "TECH. Universidad tecnológica",
     description: "",
   },
   {
-    icon: Award,
-    year: "2019",
-    title: " Master en Neuropsicología Clínica ",
-    institution: "Esneca Business School (España)",
+    icon: GraduationCap,
+    year: "2023",
+    title: " Master en Hipnosis Clínica y Relajación. ",
+    institution: "TECH. Universidad tecnológica",
     description: "",
   },
   {
@@ -45,11 +31,40 @@ const education = [
     description: "",
   },
   {
-    icon: GraduationCap,
-    year: "2023",
-    title: " Master en Hipnosis Clínica y Relajación. ",
-    institution: "TECH. Universidad tecnológica",
+    icon: Award,
+    year: "2019",
+    title: " Master en Neuropsicología Clínica ",
+    institution: "Esneca Business School (España)",
     description: "",
+  },
+  {
+    icon: BookOpenText,
+    year: "2018",
+    title: "Magister en Dirección de Recursos Humanos",
+    institution: "EUDE Business School (Madrid) ",
+    description: "",
+  },
+  {
+    icon: Brain,
+    year: "2017",
+    title: "Psicología",
+    institution: "Corporación Universitaria Minuto de Dios",
+    description: "Título profesional en Psicología",
+  },
+  {
+    icon: Syringe,
+    year: "2013",
+    title: "Enfermería",
+    institution: "Cesalud",
+    description: "",
+  },
+  {
+    icon: GraduationCap,
+    year: "",
+    title: "DIPLOMADOS Y OTROS",
+    institution: "",
+    description:
+      "Diplomado en neuro psicología del Alzheimer; Diplomado Psicogerentologia en cuidados del adulto mayor; Diplomado en neuropsicología y competencias socioemocionales; Diplomado en habilidades socioemocionales en educación; Diplomado en educación y cátedra de paz; Certificación en habilidades blandas, inteligencia emocional, habilidades de comunicación, resiliencia y solución de conflictos; Título experto en humanización en asistencia sanitaria; Formación en inteligencia artificial.",
   },
 ];
 
@@ -106,9 +121,9 @@ export default function Education() {
                           <h3 className="text-base sm:text-lg md:text-xl font-semibold text-foreground mb-1.5 sm:mb-2">
                             {item.title}
                           </h3>
-                          <p className="text-sm sm:text-base text-primary font-medium mb-1.5 sm:mb-2">
+                          {/*<p className="text-sm sm:text-base text-primary font-medium mb-1.5 sm:mb-2">
                             {item.institution}
-                          </p>
+                          </p>*/}
                           <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                             {item.description}
                           </p>
