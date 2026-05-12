@@ -13,7 +13,7 @@ export default function Location() {
             Ubicación
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Atención en consultorio privado, en un espacio seguro y confidencial
+            Atención en consultorio privado, un espacio seguro y confidencial;
             encuéntralo en Pitalito, Huila, Colombia
           </p>
         </div>

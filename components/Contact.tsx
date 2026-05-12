@@ -4,7 +4,7 @@ import { Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 export default function Contact() {
   const phoneNumber = "573124758174";
   const whatsappMessage =
-    "Hola Consultorio Dra. Luz Adriana Ramírez P., me gustaría agendar una cita.";
+    "Hola Consultorio Dra. Luz Adriana Ramírez P. me gustaría agendar una cita.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
