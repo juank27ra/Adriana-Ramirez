@@ -12,36 +12,37 @@ const education = [
   {
     icon: Brain,
     year: "2026",
-    title: " Maestra en neurociencia e investigación en la imagen neurológica ",
-    institution: "TECH. Universidad tecnológica",
+    title:
+      "Maestrante en Neurociencia e investigación en la imagen neurológica ",
+    institution: "España. Convalidación y Apostillaje de la Haya",
     description: "",
   },
   {
     icon: GraduationCap,
     year: "2023",
-    title: " Master en Hipnosis Clínica y Relajación. ",
-    institution: "TECH. Universidad tecnológica",
+    title: " Magister en Hipnosis Clínica y Relajación. ",
+    institution: "España. Convalidación y Apostillaje de la Haya",
     description: "",
   },
   {
     icon: BookOpen,
     year: "2021",
-    title: "Master en Coaching, inteligencia Emocional y PNL.",
-    institution: "ISEB. Instituto Superior Europeo de Barcelona (España) ",
+    title: "Magister en Coaching, inteligencia Emocional y PNL.",
+    institution: "España. Convalidación y Apostillaje de la Haya",
     description: "",
   },
   {
     icon: Award,
     year: "2019",
-    title: " Master en Neuropsicología Clínica ",
-    institution: "Esneca Business School (España)",
+    title: " Magister en Neuropsicología Clínica ",
+    institution: "España. Convalidación y Apostillaje de la Haya",
     description: "",
   },
   {
     icon: BookOpenText,
     year: "2018",
     title: "Magister en Dirección de Recursos Humanos",
-    institution: "EUDE Business School (Madrid) ",
+    institution: "España. Convalidación y Apostillaje de la Haya",
     description: "",
   },
   {
@@ -62,7 +63,7 @@ const education = [
     icon: GraduationCap,
     year: "",
     title: "DIPLOMADOS Y OTROS",
-    institution: "",
+    institution: "España. Convalidación y Apostillaje de la Haya",
     description:
       "Diplomado en neuro psicología del Alzheimer; Diplomado Psicogerentologia en cuidados del adulto mayor; Diplomado en neuropsicología y competencias socioemocionales; Diplomado en habilidades socioemocionales en educación; Diplomado en educación y cátedra de paz; Certificación en habilidades blandas, inteligencia emocional, habilidades de comunicación, resiliencia y solución de conflictos; Título experto en humanización en asistencia sanitaria; Formación en inteligencia artificial.",
   },
@@ -121,9 +122,9 @@ export default function Education() {
                           <h3 className="text-base sm:text-lg md:text-xl font-semibold text-foreground mb-1.5 sm:mb-2">
                             {item.title}
                           </h3>
-                          {/*<p className="text-sm sm:text-base text-primary font-medium mb-1.5 sm:mb-2">
+                          <p className="text-sm sm:text-base text-primary font-medium mb-1.5 sm:mb-2">
                             {item.institution}
-                          </p>*/}
+                          </p>
                           <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                             {item.description}
                           </p>
