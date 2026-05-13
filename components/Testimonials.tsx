@@ -22,9 +22,21 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "Atte. Sr James Mendez",
+    name: "Atte. Carolina Murcia",
+    role: "Asesora comercial",
+    text: "Estoy en tratamiento con la Doctora Luz Adriana; me ha ayudado bastante en la rehabilitación cognitiva después de una parálisis facial por estrés, brindándome las herramientas para avanzar y reprogramar mi cerebro para estabilizarme emocionalmente.",
+    rating: 5,
+  },
+  {
+    name: "Atte. James Israel Mendez",
     role: "Empresario y Policía",
-    text: "La Dra luz Adriana me ayudó en un proceso de autoconocimiento y en el manejo de la gestión emocional por un trastorno mixto de ansiedad y depresión, donde sus herramientas y experiencia me ayudaron a recuperar mi bienestar emocional y el de mi familia.",
+    text: "La Dra luz adriana me ayudó mucho en un proceso de estrés postraumático y ansiedad, que me desató una pérdida de peso masiva, y luego de haber evaluado diferentes rutas, encontré en ella respuestas y herramientas en terapia para el manejo de la gestión emocional donde sus herramientas y experiencia me ayudaron a recuperar mi bienestar emocional y el de mi familia.",
+    rating: 5,
+  },
+  {
+    name: "Atte. Johana Correa Rubiano",
+    role: "",
+    text: "Hola ☺️ soy paciente de la doctora luz Adriana y estoy muy agradecida con ella por ser el instrumento que Dios envió a mi vida, gracias a su profesionalismo logré superar un trastorno mixto de ansiedad y depresión, donde sus herramientas fueron fundamentales para ser la mujer que soy hoy en día: una mujer con mejor manejo de mis emociones; me ayudó a reencontrarme, a valorame, a quererme, a establecer límites sanos, a cambiar patrones, a superar duelos, a comunicarme asertivamente  con los demás (y me quedo corta) y gracias a ella, muchos de mi familia, amigos y conocidos, hemos logrado tener un bienestar emocional estable y a vivir en plenitud.",
     rating: 5,
   },
 ];
