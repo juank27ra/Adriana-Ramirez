@@ -28,12 +28,12 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-center">
           <div className="space-y-4 sm:space-y-6 order-2 lg:order-1">
             <div className="space-y-3 sm:space-y-4">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
                 Dra. Luz Adriana Ramírez P.
-              </h1>
-              <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground">
-                Psicoterapeuta/Neuropsicóloga
               </h2>
+              <h1 className="text-lg sm:text-xl md:text-2xl text-muted-foreground">
+                Psicoterapeuta/Neuropsicóloga
+              </h1>
             </div>
 
             <div className="space-y-3 sm:space-y-4">

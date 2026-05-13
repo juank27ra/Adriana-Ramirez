@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Dra. Luz Adriana Ramírez P.",
-      url: "https://tusitio.com",
+      url: "https://adriana-ramirez.vercel.app/",
     },
   ],
 
@@ -69,10 +69,10 @@ export const metadata: Metadata = {
     ],
   },
 
-  metadataBase: new URL("https://tusitio.com"),
+  metadataBase: new URL("https://adriana-ramirez.vercel.app/"),
 
   alternates: {
-    canonical: "https://tusitio.com",
+    canonical: "https://adriana-ramirez.vercel.app/",
   },
 
   robots: {
