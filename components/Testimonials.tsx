@@ -4,14 +4,14 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Atte. Leidy Vergara.",
+    name: "Atte. Leidy Vergara",
     role: "Contadora pública",
     text: "Afrontar el sufrimiento causado por la pérdida de un ser querido, puede ser perturbador cuando no se cuenta con las herramientas necesarias para superar el duelo; este suceso  fue un detonante que cambió mi vida; gracias al profesionalismo de la doctora Luz Adriana Ramírez, he logrado restablecer mi equilibrio emocional.",
     rating: 5,
   },
   {
-    name: "Atte. Eliana Segura ",
-    role: "Contadora Pública.",
+    name: "Atte. Eliana Segura",
+    role: "Contadora Pública",
     text: "El proceso con la doctora Adriana Ramírez me ayudó con mi problema de ansiedad, depresión y demás dificultades de salud mental con los que llegué a buscarla, gracias a su profesionalismo y herramientas inculcadas durante dicho proceso se creó en mí la fuerza necesaria para mirar la vida con entusiasmo, felicidad y amor, creando en mí razones para vivir una vida más plena. Solo tengo gratitud y cariño hacia ella, deseando siempre éxitos y bendiciones en su vida profesional y personal.",
     rating: 5,
   },
@@ -37,6 +37,12 @@ const testimonials = [
     name: "Atte. Johana Correa Rubiano",
     role: "",
     text: "Hola ☺️ soy paciente de la doctora luz Adriana y estoy muy agradecida con ella por ser el instrumento que Dios envió a mi vida, gracias a su profesionalismo logré superar un trastorno mixto de ansiedad y depresión, donde sus herramientas fueron fundamentales para ser la mujer que soy hoy en día: una mujer con mejor manejo de mis emociones; me ayudó a reencontrarme, a valorame, a quererme, a establecer límites sanos, a cambiar patrones, a superar duelos, a comunicarme asertivamente  con los demás (y me quedo corta) y gracias a ella, muchos de mi familia, amigos y conocidos, hemos logrado tener un bienestar emocional estable y a vivir en plenitud.",
+    rating: 5,
+  },
+  {
+    name: "Atte. Luis Carlos Londoño Vélez",
+    role: "Comerciante.",
+    text: " Le doy gracias a Dios porque a mis 39 años puso en mi camino a la Dra. Luz Adriana Ramírez. Con su profesionalismo y dedicación logró identificar que lo que vivía era un trastorno de ansiedad tipificada. En cada consulta no solo encontré acompañamiento, sino herramientas y la oportunidad de conocerme mejor y aprender a cuidarme. Estaré siempre agradecido por su ayuda.",
     rating: 5,
   },
 ];
