@@ -28,21 +28,24 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-center">
           <div className="space-y-4 sm:space-y-6 order-2 lg:order-1">
             <div className="space-y-3 sm:space-y-4">
+              <h1 className="text-lg sm:text-xl md:text-2xl text-muted-foreground">
+                Psicoterapeuta/Neuropsicóloga en Pitalito, Huila
+              </h1>
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
                 Dra. Luz Adriana Ramírez P.
               </h2>
-              <h1 className="text-lg sm:text-xl md:text-2xl text-muted-foreground">
-                Psicoterapeuta/Neuropsicóloga
-              </h1>
             </div>
 
             <div className="space-y-3 sm:space-y-4">
               <p className="text-base sm:text-lg text-foreground/90 leading-relaxed">
-                Psicóloga, Enfermera, Magister en Neuropsicología Clínica,
+                {/*Psicóloga, Enfermera, Magister en Neuropsicología Clínica,
                 Magister en Dirección y Gestión de Recursos Humanos, Magister en
                 Coaching, Inteligencia Emocional y PNL, Magister en Hipnosis
                 Clínica y Relajación, Maestrante en Neurociencia e investigación
-                en imagen Neurológica
+                en imagen Neurológica*/}
+                Brindamos acompañamiento profesional para ayudarte a comprender,
+                gestionar y fortalecer tu bienestar emocional, personal o
+                familiar y organizacional.
                 <br />
                 <br />
                 Atención psicológica avalada por el{" "}
@@ -58,8 +61,14 @@ export default function Hero() {
                 profesionalismo y confianza en cada proceso.
               </p>
               <p className="text-sm sm:text-base text-muted-foreground">
-                Espacio seguro y confidencial para encontrar el equilibrio y el
-                bienestar que necesitas.
+                +500 pacientes atendidos dan garantía de mis{" "}
+                <button
+                  onClick={() => scrollToSection("servicios")}
+                  className=" text-primary hover:text-muted-foreground transition-all duration-300 text-sm sm:text-base"
+                >
+                  servicios
+                </button>
+                .
               </p>
             </div>
 
@@ -78,7 +87,8 @@ export default function Hero() {
                 onClick={() => scrollToSection("servicios")}
                 className="border-2 border-primary text-primary px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-sm sm:text-base"
               >
-                Conocer Servicios
+                Conoce a la especialista
+                {/* Sobre la terapeuta*/}
               </button>
             </div>
           </div>
@@ -86,15 +96,17 @@ export default function Hero() {
             <div className="relative h-[90%] rounded-xl sm:rounded-2xl overflow-hidden shadow-xl sm:shadow-2xl max-w-xs sm:max-w-md mx-auto lg:max-w-none">
               <Image
                 src={AdrianaRamirez2}
-                alt="Dra. Luz Adriana Ramírez p.- Psicóloga profesional"
+                alt="Dra. Luz Adriana Ramírez p.- Psicóloga profesional - Neuropsicologa"
                 className="w-full h-auto object-cover aspect-3/4 md:hidden"
                 priority
+                placeholder="blur"
               />
               <Image
                 src={AdrianaRamirez}
-                alt="Dra. Luz Adriana Ramírez P.- Psicóloga profesional"
+                alt="Dra. Luz Adriana Ramírez P.- Psicóloga profesional - Neuropsicologa"
                 className="w-full h-auto 2xl:h-212.5 xl:h-212.5 object-cover aspect-3/4 hidden md:block"
                 priority
+                placeholder="blur"
               />
             </div>
             <div className="absolute -bottom-4 sm:-bottom-6 -right-4 sm:-right-6 w-32 h-32 sm:w-48 sm:h-48 bg-primary/10 rounded-full blur-3xl -z-10"></div>
