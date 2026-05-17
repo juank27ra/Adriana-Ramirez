@@ -1,10 +1,14 @@
 "use client";
+import { useState } from "react";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import HeroVideoPopup from "./HeroVideoPopup";
 import AdrianaRamirez from "../app/assets/Adriana Ramirez.webp";
 import AdrianaRamirez2 from "../app/assets/Adriana Ramirez2.webp";
 
 export default function Hero() {
+  const [openPopup, setOpenPopup] = useState(false);
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -84,12 +88,15 @@ export default function Hero() {
                 />
               </button>
               <button
-                onClick={() => scrollToSection("servicios")}
+                onClick={() => setOpenPopup(true)}
                 className="border-2 border-primary text-primary px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-sm sm:text-base"
               >
                 Conoce a la especialista
                 {/* Sobre la terapeuta*/}
               </button>
+              {openPopup && (
+                <HeroVideoPopup onClose={() => setOpenPopup(false)} />
+              )}
             </div>
           </div>
           <div className="relative order-1 lg:order-2">
