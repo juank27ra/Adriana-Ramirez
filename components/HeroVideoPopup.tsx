@@ -48,26 +48,53 @@ export default function HeroVideoPopup({ onClose }: HeroVideoPopupProps) {
 
           {/* CONTENIDO */}
           <div className="flex flex-col items-center text-center">
-            <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-border">
+            {/*<div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-border">
               <PlayCircle className="h-10 w-10 text-chart-5" />
-            </div>
+            </div>*/}
 
             <h2 className="mb-4 text-2xl font-bold text-foreground md:text-3xl">
-              Próximamente video presentacional
+              {/* Próximamente video presentacional*/}
+              Aquí un poco mas de la profesional
             </h2>
 
             <p className="max-w-xl text-sm leading-relaxed text-muted-foreground md:text-base">
-              Muy pronto podrás conocer más sobre quién está detrás de este
-              espacio profesional, cómo nace su pasión por comprender, entender
-              y ayudar a las personas desde la psicología y la neuropsicología,
-              además de su enfoque intelectual, humano, profesional y cercano
-              para acompañar cada proceso de manera integral.
+              La pasión por comprender la conducta humana nace desde el interés
+              genuino por entender cómo las emociones, las experiencias y el
+              entorno influyen en la vida de cada persona. A lo largo de más de
+              10 años de experiencia profesional, la Dra. Luz Adriana ha
+              fortalecido constantemente su formación académica y clínica,
+              realizando múltiples estudios y especializaciones en psicología y
+              neuropsicología con el propósito de ofrecer un acompañamiento más
+              humano, ético y efectivo.
+              <br />
+              <br />
+              Su experiencia ha sido construida en diferentes entornos de
+              atención como: Gerente de Recursos Humanos, Docente, Asesora de
+              proyectos de investigación, Visitadora domiciliaria y analista de
+              operaciones, Psico- orientadora, Psicóloga, Asistente en
+              Psicología y Psicóloga RRHH Externa, manteniendo siempre un
+              compromiso permanente con la actualización profesional y el
+              bienestar integral de cada paciente.
+              <br />
+              <br />
+              Este servicio está dirigido a personas, familias y organizaciones
+              que buscan orientación profesional, crecimiento emocional y
+              herramientas para afrontar diferentes situaciones personales,
+              familiares o laborales desde un enfoque cercano, humano e
+              integral. Más que un consultorio, se ha construido un espacio
+              seguro, profesional y confiable, donde cada proceso es acompañado
+              con sensibilidad, escucha y un compromiso real con el bienestar de
+              quienes depositan su confianza en nosotros.
             </p>
 
-            <div className="mt-6 rounded-2xl bg-input-background   p-4 text-sm muted-foreground ">
-              Un espacio creado para que puedas sentir confianza, tranquilidad y
-              la seguridad de estar en excelentes manos profesionales.
-            </div>
+            {/*<div className="mt-6 rounded-2xl bg-input-background   p-4 text-sm muted-foreground ">
+              Luz Adriana Ramirez P. es una persona que ha consolidado su
+              experiencia profesional en varios entornos, a través del tiempo:
+              ha trabajado en el Hospital Departamental San Antonio de pitalito,
+              ha sido Un espacio creado para que puedas sentir confianza,
+              tranquilidad y la seguridad de estar en excelentes manos
+              profesionales.
+            </div>*/}
           </div>
         </div>
       </div>
