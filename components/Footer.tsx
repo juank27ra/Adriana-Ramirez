@@ -5,7 +5,7 @@ import facebook from "../app/assets/facebook.svg";
 import instagram from "../app/assets/instagram.svg";
 import linkedin from "../app/assets/linkedin.svg";
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getUTCFullYear();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -89,7 +89,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 sm:space-y-3">
               <li className="flex items-center gap-2 text-primary-foreground/80 text-xs sm:text-sm">
-                <Phone size={14} className="sm:w-4 sm:h-4" />
+                <Phone size={14} className="sm:w-4 sm:h-4 text-green-400" />
                 <a
                   href="tel:+573124758174"
                   className="hover:text-primary-foreground transition-colors"
@@ -98,7 +98,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/80 text-xs sm:text-sm">
-                <Mail size={14} className="sm:w-4 sm:h-4" />
+                <Mail size={14} className="sm:w-4 sm:h-4 text-yellow-400" />
                 <a
                   href="mailto:adrianaramirez_29@hotmail.com"
                   className="hover:text-primary-foreground transition-colors break-all"
@@ -107,7 +107,10 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-start gap-2 text-primary-foreground/80 text-xs sm:text-sm">
-                <MapPin size={14} className="mt-1 shrink-0 sm:w-4 sm:h-4" />
+                <MapPin
+                  size={14}
+                  className="mt-1 shrink-0 sm:w-4 sm:h-4 text-red-400"
+                />
                 <span>Pitalito, Huila, Colombia</span>
               </li>
             </ul>
@@ -127,7 +130,7 @@ export default function Footer() {
               >
                 <Image src={facebook} alt="Facebook" width={24} height={24} />
               </a>
-              <a
+              {/*<a
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -135,7 +138,7 @@ export default function Footer() {
                 aria-label="Instagram"
               >
                 <Image src={instagram} alt="instagram" width={24} height={24} />
-              </a>
+              </a>*/}
               <a
                 href="https://www.linkedin.com/in/luz-adriana-ramirez-p-a59b62185/?skipRedirect=true"
                 target="_blank"

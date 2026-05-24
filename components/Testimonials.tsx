@@ -35,7 +35,7 @@ const testimonials = [
   },
   {
     name: "Atte. Johana Correa Rubiano",
-    role: "",
+    role: "Comerciante",
     text: "Hola ☺️ soy paciente de la doctora luz Adriana y estoy muy agradecida con ella por ser el instrumento que Dios envió a mi vida, gracias a su profesionalismo logré superar un trastorno mixto de ansiedad y depresión, donde sus herramientas fueron fundamentales para ser la mujer que soy hoy en día: una mujer con mejor manejo de mis emociones; me ayudó a reencontrarme, a valorame, a quererme, a establecer límites sanos, a cambiar patrones, a superar duelos, a comunicarme asertivamente  con los demás (y me quedo corta) y gracias a ella, muchos de mi familia, amigos y conocidos, hemos logrado tener un bienestar emocional estable y a vivir en plenitud.",
     rating: 5,
   },
