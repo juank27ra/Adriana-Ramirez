@@ -91,7 +91,7 @@ export default function Hero() {
                 onClick={() => setOpenPopup(true)}
                 className="border-2 border-primary text-primary px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-sm sm:text-base"
               >
-                Conoce a la especialista
+                Conoce a la Especialista
                 {/* Sobre la terapeuta*/}
               </button>
               {openPopup && (

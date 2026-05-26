@@ -54,7 +54,7 @@ export default function HeroVideoPopup({ onClose }: HeroVideoPopupProps) {
 
             <h2 className="mb-4 text-2xl font-bold text-foreground md:text-3xl">
               {/* Próximamente video presentacional*/}
-              Aquí un poco mas de la profesional
+              Aquí un poco más de la Profesional
             </h2>
 
             <p className="max-w-xl text-sm leading-relaxed text-muted-foreground md:text-base">
@@ -64,17 +64,17 @@ export default function HeroVideoPopup({ onClose }: HeroVideoPopupProps) {
               10 años de experiencia profesional, la Dra. Luz Adriana ha
               fortalecido constantemente su formación académica y clínica,
               realizando múltiples estudios y especializaciones en psicología y
-              neuropsicología con el propósito de ofrecer un acompañamiento más
+              neuropsicología, con el propósito de ofrecer un acompañamiento más
               humano, ético y efectivo.
               <br />
               <br />
-              Su experiencia ha sido construida en diferentes entornos de
-              atención como: Gerente de Recursos Humanos, Docente, Asesora de
-              proyectos de investigación, Visitadora domiciliaria y analista de
-              operaciones, Psico- orientadora, Psicóloga, Asistente en
-              Psicología y Psicóloga RRHH Externa, manteniendo siempre un
-              compromiso permanente con la actualización profesional y el
-              bienestar integral de cada paciente.
+              Su experiencia y conocimiento ha sido construido en diferentes
+              entornos de atención como: Enfermera, Gerente de Recursos Humanos,
+              Docente, Asesora de proyectos de investigación, Visitadora
+              domiciliaria y analista de operaciones, Psico- orientadora,
+              Psicóloga, Asistente en Psicología y Psicóloga RRHH Externa;
+              manteniendo siempre un compromiso permanente con la actualización
+              profesional y el bienestar integral de cada paciente.
               <br />
               <br />
               Este servicio está dirigido a personas, familias y organizaciones
