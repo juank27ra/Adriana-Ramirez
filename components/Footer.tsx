@@ -112,6 +112,7 @@ export default function Footer() {
                   className="mt-1 shrink-0 sm:w-4 sm:h-4 text-red-400"
                 />
                 <span>Pitalito, Huila, Colombia</span>
+                <span>Calle 10 # 7 - 43</span>
               </li>
             </ul>
           </div>
@@ -122,7 +123,7 @@ export default function Footer() {
             </h3>
             <div className="flex gap-3 sm:gap-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/adriana.ramirez.79230"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-full flex items-center justify-center transition-all hover:scale-110"
@@ -140,7 +141,7 @@ export default function Footer() {
                 <Image src={instagram} alt="instagram" width={24} height={24} />
               </a>*/}
               <a
-                href="https://www.linkedin.com/in/luz-adriana-ramirez-p-a59b62185/?skipRedirect=true"
+                href="https://www.linkedin.com/in/luz-adriana-ramirez-p/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-full flex items-center justify-center transition-all hover:scale-110"
