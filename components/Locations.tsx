@@ -2,7 +2,8 @@
 import { MapPin, Navigation } from "lucide-react";
 
 export default function Location() {
-  const address = "Pitalito, Huila, Colombia";
+  const address = "Pitalito, Huila, Colombia ";
+  const addressDetail = "Calle 10 # 7 - 43";
   const coordinates = "1.8561870376914285, -76.04613686159725";
 
   return (
@@ -13,8 +14,7 @@ export default function Location() {
             Ubicación
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Atención en consultorio privado, un espacio seguro y confidencial;
-            encuéntralo en Pitalito, Huila, Colombia
+            Atención en consultorio privado, un espacio seguro y confidencial
           </p>
         </div>
 
@@ -32,6 +32,9 @@ export default function Location() {
                     </h3>
                     <p className="text-muted-foreground text-sm sm:text-base">
                       {address}
+                    </p>
+                    <p className="text-muted-foreground text-sm sm:text-base">
+                      {addressDetail}
                     </p>
                   </div>
                 </div>

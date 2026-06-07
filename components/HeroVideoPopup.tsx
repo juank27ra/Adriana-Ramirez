@@ -54,16 +54,16 @@ export default function HeroVideoPopup({ onClose }: HeroVideoPopupProps) {
 
             <h2 className="mb-4 text-2xl font-bold text-foreground md:text-3xl">
               {/* Próximamente video presentacional*/}
-              Aquí un poco más de la Profesional
+              Más de la Profesional
             </h2>
 
             <p className="max-w-xl text-sm leading-relaxed text-muted-foreground md:text-base">
               La pasión por comprender la conducta humana nace desde el interés
               genuino por entender cómo las emociones, las experiencias y el
-              entorno influyen en la vida de cada persona. A lo largo de más de
-              10 años de experiencia profesional, la Dra. Luz Adriana ha
-              fortalecido constantemente su formación académica y clínica,
-              realizando múltiples estudios y especializaciones en psicología y
+              entorno influyen en la vida de cada persona. Cerca de 10 años de
+              experiencia profesional, la Dra. Luz Adriana ha fortalecido
+              constantemente su formación académica y clínica, realizando
+              múltiples estudios y especializaciones en psicología y
               neuropsicología, con el propósito de ofrecer un acompañamiento más
               humano, ético y efectivo.
               <br />

@@ -61,7 +61,7 @@ export default function Hero() {
                 >
                   Colegio Colombiano de Psicólogos (COLPSIC)
                 </a>
-                , con más de 10 años de experiencia garantizando ética,
+                , con cerca de 10 años de experiencia garantizando ética,
                 profesionalismo y confianza en cada proceso.
               </p>
               <p className="text-sm sm:text-base text-muted-foreground">
