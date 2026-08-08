@@ -65,7 +65,7 @@ export default function Hero() {
                 profesionalismo y confianza en cada proceso.
               </p>
               <p className="text-sm sm:text-base text-muted-foreground">
-                +500 pacientes atendidos dan garantía de mis{" "}
+                +500 casos clínicos atendidos dan garantía de mis{" "}
                 <button
                   onClick={() => scrollToSection("servicios")}
                   className=" text-primary hover:text-muted-foreground transition-all duration-300 text-sm sm:text-base"
