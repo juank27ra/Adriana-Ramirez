@@ -13,36 +13,36 @@ const education = [
     icon: Brain,
     year: "2026",
     title:
-      "Maestrante en Neurociencia e investigación en la imagen neurológica ",
-    institution: "España. ",
+      "Maestrante en Neurociencia e investigación en la imagen neurológica. ",
+    institution: "España",
     description: "",
   },
   {
     icon: GraduationCap,
     year: "2023",
     title: " Magister en Hipnosis Clínica y Relajación. ",
-    institution: "España. ",
+    institution: "España",
     description: "",
   },
   {
     icon: BookOpen,
     year: "2021",
     title: "Magister en Coaching, inteligencia Emocional y PNL.",
-    institution: "España. ",
+    institution: "España",
     description: "",
   },
   {
     icon: Award,
     year: "2019",
     title: " Magister en Neuropsicología Clínica ",
-    institution: "España. ",
+    institution: "España",
     description: "",
   },
   {
     icon: BookOpenText,
     year: "2018",
     title: "Magister en Dirección de Recursos Humanos",
-    institution: "España. ",
+    institution: "España",
     description: "",
   },
   {
@@ -63,9 +63,9 @@ const education = [
     icon: GraduationCap,
     year: "",
     title: "DIPLOMADOS Y OTROS",
-    institution: "España. ",
+    institution: "Internacionales y otros",
     description:
-      "Diplomado en neuro psicología del Alzheimer; Diplomado Psicogerentologia en cuidados del adulto mayor; Diplomado en neuropsicología y competencias socioemocionales; Diplomado en habilidades socioemocionales en educación; Diplomado en educación y cátedra de paz; Certificación en habilidades blandas, inteligencia emocional, habilidades de comunicación, resiliencia y solución de conflictos; Título experto en humanización en asistencia sanitaria; Formación en inteligencia artificial, Aprendizaje significativo y Estrategias Pedagógicas para TEA, TDAH, DIS y DOWN, Estrategias Pedagógicas para Dificultades del Aprendizaje, Neuropsicologia y dificultades del Aprendizaje.",
+      "Diplomado en docencia universitaria con énfasis en Neuroeducación; Diplomado en formulación y gestión de proyectos de investigación educativa; Diplomado en diseño curricular por competencias; Diplomado en neuro psicología del Alzheimer; Diplomado Psicogerentologia en cuidados del adulto mayor; Diplomado en neuropsicología y competencias socioemocionales; Diplomado en habilidades socioemocionales en educación; Diplomado en educación y cátedra de paz; Certificación en habilidades blandas, inteligencia emocional, habilidades de comunicación, resiliencia y solución de conflictos; Título experto en humanización en asistencia sanitaria; Formación en inteligencia artificial, Aprendizaje significativo y Estrategias Pedagógicas para TEA, TDAH, DIS y DOWN, Estrategias Pedagógicas para Dificultades del Aprendizaje, Neuropsicologia y dificultades del Aprendizaje.",
   },
 ];
 
