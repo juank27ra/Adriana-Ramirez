@@ -45,6 +45,18 @@ const testimonials = [
     text: " Le doy gracias a Dios porque a mis 39 años puso en mi camino a la Dra. Luz Adriana Ramírez. Con su profesionalismo y dedicación logró identificar que lo que vivía era un trastorno de ansiedad tipificada. En cada consulta no solo encontré acompañamiento, sino herramientas y la oportunidad de conocerme mejor y aprender a cuidarme. Estaré siempre agradecido por su ayuda.",
     rating: 5,
   },
+  {
+    name: "Atte. Marli Urbano",
+    role: ".",
+    text: " Mi familia y yo  encontramos a la doctora Luz Adriana Ramírez gracias a varias recomendaciones de otros familiares y amigos que ya habían consultado con ella y habían resuelto sus situaciones. En nuestro caso, consultamos por un menor de 8 años que tenía características que nos preocupaban como padres, pero luego de la consulta de valoración, y atendiendo las recomendaciones que la doctora le indicó al niño y a nosotros como padres, nuestro niño volvió a la normalidad y hoy cinco años después es un excelente hijo y estudiante. Hace poco también yo empecé a sentir estados de intranquilidad, insomnio, dolor de cabeza, pensamientos negativos y nerviosismo que no entendía porque me pasaba si todo aparentemente estaba bien, y que cada día me preocupaban más y me hacían sentir peor, luego de meses de incertidumbre y angustia decidí consultar con la Dra. y gracias a Su profesionalismo,  me oriento y me guió para buscar mi mejoría enfocándose en la causa y no solo en los sintomas, me articuló con otros profesionales y siempre estuvo para mí hasta lograr el equilibrio de nuevo, Ella me hizo entender que todo, con una buena  ayuda y un acertado diagnóstico tiene solución. Hoy gracias a ella mi vida y la de mi familia volvió a la normalidad. Es una Exelente profesional, gracias Dra.",
+    rating: 5,
+  },
+  {
+    name: "Atte. Andrés Muñoz",
+    role: " Espec. en alta gerencia",
+    text: " Desde el sentido humano y el acompañamiento cercano de la Dra., he aprendido a comprenderme mejor, construir nuevas perspectivas y hacer frente a las situaciones de la vida, incluso aquellas que a veces cuestan y nos desafían. Ir a terapia cambió la forma en la que veía las cosas y me ha permitido crecer, sanar y encontrar nuevas herramientas para avanzar. Gracias Dra. por acompañarme con tanta empatía, respeto y humanidad.",
+    rating: 5,
+  },
 ];
 
 export default function Testimonials() {

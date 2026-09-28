@@ -26,7 +26,7 @@ const pillars = [
     icon: Heart,
     title: "Vocación desde el inicio",
     description:
-      "La Dra. Luz Adriana entendió desde temprano que la psicología es ante todo un compromiso humano. Su vocación la llevó a elegir el área clínica como el espacio donde podría generar un impacto real y profundo.",
+      "La Dra. Luz Adriana Ramírez P. comprende que la psicología es ante todo un compromiso humano pero su vocación se construyó desde temprana edad al buscar respuestas en condiciones físicas y mentales que afectaban su entorno.",
   },
   {
     icon: Lightbulb,
@@ -38,7 +38,7 @@ const pillars = [
     icon: Users,
     title: "Raíces en el sur colombiano",
     description:
-      "Establecida en Pitalito, Huila, conoce de cerca las realidades culturales y sociales de su comunidad, lo que le permite ofrecer un acompañamiento genuino, sin juicios y culturalmente pertinente.",
+      "Establecida en el Huila, Colombia, pero formándose de manera contínua en Latam y Europa conoce de cerca las condiciones socioculturales y demográficas de su comunidad y diversos y variables factores que alteran las condiciones psicológicas y neuropsicológicas de un paciente.",
   },
 ];
 
@@ -139,8 +139,8 @@ const experiences = [
   },
   {
     icon: HandHeart,
-    role: "Asistente en Psicología",
-    context: "Apoyo Clínico",
+    role: "Perito ",
+    context: "Psicología y neuropsicología",
     color:
       "bg-pink-50 dark:bg-pink-950/40 border-pink-200 dark:border-pink-800",
     iconBg: "bg-pink-100 dark:bg-pink-900/60",
@@ -151,7 +151,7 @@ const experiences = [
   },
   {
     icon: Users,
-    role: "Psicóloga RRHH Externa",
+    role: "Psicóloga RRHH",
     context: "Consultoría Empresarial",
     color:
       "bg-orange-50 dark:bg-orange-950/40 border-orange-200 dark:border-orange-800",
@@ -190,13 +190,18 @@ export default function ProfessionalModal({
         <p className="text-base sm:text-lg text-foreground/90 leading-relaxed mb-3">
           La{" "}
           <strong className="text-primary">Dra. Luz Adriana Ramírez P.</strong>{" "}
-          mantiene la pasión por comprender la conducta humana y nace desde el
-          interés genuino por entender cómo las emociones, las experiencias y el
-          entorno influyen en el bienestar individual y colectivo. Con cerca de
-          10 años de experiencia profesional, ha fortalecido constantemente su
-          formación académica y clínica, realizando múltiples estudios y
-          especializaciones en psicología y neuropsicología, con el propósito de
-          ofrecer un acompañamiento más humano, ético y efectivo.
+          tiene como proposito el servicio, y desde su vocación y pasión por
+          comprender la conducta humana y las condiciones fisiológicas que
+          alteran el comportamiento, siempre se ha caracterizado por ser crítica
+          y buscar causas, síntomas y origen de las condiciones que pueden
+          afectar a una persona. Su interés genuino por entender como las
+          emociones, experiencias, condiciones de salud (física y mental,
+          factores socioemocionales etc.), pueden alterar el bienestar
+          individual y colectivo, es la razón por la que sigue fortaleciendo
+          constante y continuamente su formación académica y clinica, realizando
+          múltiples estudios y especialidades en psicología y neuropsicología,
+          con el objetivo contínuo de brindar un acompañamiento más humano,
+          ético y efectivo, con más de 12 años en sector salud.
         </p>
         <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
           Su camino no ha sido lineal: lo ha tejido desde diferentes roles,
@@ -273,10 +278,11 @@ export default function ProfessionalModal({
         <p className="text-sm sm:text-base italic text-foreground/80 leading-relaxed">
           Creo profundamente en la capacidad de cada persona u organización para
           transformarse. Mi rol es acompañar profesionalmente ese proceso con
-          respeto, calidez y herramientas que realmente funcionen.
+          respeto y brindar las herramientas que ayuden a identificar y
+          solucionar la situaciones que les aquejan a cada uno.
         </p>
         <footer className="mt-2 text-xs text-muted-foreground font-medium">
-          — Dra. Luz Adriana Ramírez
+          — Dra. Luz Adriana Ramírez P.
         </footer>
       </blockquote>
     </Modal>

@@ -13,14 +13,14 @@ const services = [
     alt: "Valoración psicológica y neuropsicológica",
     title: "Valoración Psicológica y Neuropsicológica",
     description:
-      "Evaluación y diagnostico de las condiciones psicológicas y neuropsicológicas del paciente",
+      "Evaluación y diagnostico de las condiciones psicológicas y neuropsicológicas del paciente.",
   },
   {
     image: DireccionGestion,
     alt: "Dirección y gestión de recursos humanos",
     title: "Dirección y Gestión de Recursos Humanos",
     description:
-      "Desarrollo estrategico enfocado en atraer, desarrollar y retener el talento para alcanzar los objetivos organizacionales",
+      "Desarrollo estrategico enfocado en atraer, desarrollar y retener el talento para alcanzar los objetivos organizacionales.",
   },
   {
     image: psicologiaClinica,
@@ -34,21 +34,21 @@ const services = [
     alt: "Aplicación de pruebas psicométricas",
     title: "Aplicación de Pruebas Psicométricas",
     description:
-      "Evaluación y medición de rasgos, dimensiones y aspectos de la personalidad, así como las cualificaciones de habilidades, destrezas y valores de la persona",
+      "Evaluación y medición de rasgos, dimensiones y aspectos de la personalidad, así como las cualificaciones de habilidades, destrezas y valores de la persona.",
   },
   {
     image: coachiong,
     alt: "Coaching y mentoring organizacional",
     title: "Coaching y Mentoring Organizacional",
     description:
-      "Procesos de desarrollo empresarial; que potencian el talento humano y mejoran el desempeño para el logro de objetivos",
+      "Procesos de desarrollo empresarial; que potencian el talento humano y mejoran el desempeño para el logro de objetivos.",
   },
   {
     image: asesorias,
-    alt: "Asesorías profesionales",
-    title: "Asesorías",
+    alt: "Asesorías profesionales (Jurídicas y organizacionales entre otros, desde la psicología)",
+    title: "Asesorías psicológicas (Jurídicas y organizacionales entre otros)",
     description:
-      "Evaluación de rutas de atención que faciliten los procesos clínicos, organizacionales y jurídicos",
+      "Evaluación de rutas de atención que faciliten los procesos clínicos, organizacionales y jurídicos.",
   },
 ];
 
@@ -61,9 +61,10 @@ export default function Services() {
             Servicios Profesionales
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Diagnóstico, tratamiento y acompañamiento de las condiciones
-            psicológicas y neuropsicológicas. conferencias, capacitaciones,
-            asesorías entre otros.
+            Diagnóstico, evaluación, tratamiento y acompañamiento de las
+            condiciones psicológicas y neuropsicológicas. conferencias,
+            capacitaciones, asesorías psicológicas (Jurídicas y organizacionales
+            entre otros) entre otros.
           </p>
         </div>
 
