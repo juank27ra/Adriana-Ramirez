@@ -36,7 +36,7 @@ export default function Hero() {
             <div className="space-y-4 sm:space-y-6 order-2 lg:order-1">
               <div className="space-y-3 sm:space-y-4">
                 <h1 className="text-lg sm:text-xl md:text-2xl text-muted-foreground">
-                  Psicoterapeuta/Neuropsicóloga en Pitalito, Huila
+                  Psicoterapeuta - Neuropsicóloga
                 </h1>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
                   Dra. Luz Adriana Ramírez P.

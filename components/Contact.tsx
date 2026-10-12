@@ -1,11 +1,82 @@
 "use client";
-import { Mail, MapPin, Clock, MessageCircle } from "lucide-react";
+import { Mail, MapPin, Clock, MessageCircle, Video } from "lucide-react";
 
 export default function Contact() {
-  const phoneNumber = "573124758174";
-  const whatsappMessage =
-    "Hola Consultorio Dra. Luz Adriana Ramírez P. me gustaría agendar una cita.";
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+  const PHONENUMBER = process.env.WHATSAPP_NUMBER;
+  function whatsappUrl(message: string) {
+    return `https://wa.me/${PHONENUMBER}?text=${encodeURIComponent(message)}`;
+  }
+
+  const presencialUrl = whatsappUrl(
+    "Hola Dra. Luz Adriana Ramirez P., me gustaría agendar una cita PRESENCIAL. ¿Cuál es su disponibilidad?",
+  );
+  const virtualUrl = whatsappUrl(
+    "Hola Dra. Luz Adriana Ramirez P., me gustaría agendar una cita VIRTUAL. ¿Cuál es su disponibilidad?",
+  );
+
+  const infoItems = [
+    {
+      icon: MessageCircle,
+      iconBg: "bg-green-500/10",
+      iconColor: "text-green-600",
+      label: "WhatsApp",
+      content: (
+        <>
+          <a
+            href={whatsappUrl(
+              "Hola Dra. Luz Adriana, quisiera obtener más información.",
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm sm:text-base text-muted-foreground hover:text-green-600 transition-colors"
+          >
+            +57 3124758174
+          </a>
+          <p className="text-xs text-green-600 mt-1 font-medium">
+            ✓ Solo WhatsApp, no llamadas
+          </p>
+        </>
+      ),
+    },
+    {
+      icon: Mail,
+      iconBg: "bg-primary/10",
+      iconColor: "text-primary",
+      label: "Email",
+      content: (
+        <a
+          href="mailto:adrianaramirez_29@hotmail.com"
+          className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors break-all"
+        >
+          adrianaramirez_29@hotmail.com
+        </a>
+      ),
+    },
+    {
+      icon: MapPin,
+      iconBg: "bg-primary/10",
+      iconColor: "text-primary",
+      label: "Ubicación",
+      content: (
+        <p className="text-sm sm:text-base text-muted-foreground">
+          Pitalito, Huila, Colombia
+        </p>
+      ),
+    },
+    {
+      icon: Clock,
+      iconBg: "bg-primary/10",
+      iconColor: "text-primary",
+      label: "Horario de Atención",
+      content: (
+        <p className="text-sm sm:text-base text-muted-foreground">
+          Lunes a Viernes: 8:00 AM – 6:00 PM
+          <br />
+          Sábados: 9:00 AM – 1:00 PM
+        </p>
+      ),
+    },
+  ];
 
   return (
     <section
@@ -22,7 +93,7 @@ export default function Contact() {
             acompañarte en tu proceso
           </p>
         </div>
-
+        {/* info card */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 max-w-6xl mx-auto">
           <div>
             <div className="bg-white border border-border rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg">
@@ -31,125 +102,107 @@ export default function Contact() {
               </h3>
 
               <div className="space-y-4 sm:space-y-6">
-                <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-500/10 rounded-lg flex items-center justify-center shrink-0">
-                    <MessageCircle className="text-green-600" size={20} />
-                  </div>
-                  <div>
-                    <p className="font-medium text-foreground mb-1 text-sm sm:text-base">
-                      WhatsApp
-                    </p>
-                    <a
-                      href={whatsappUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm sm:text-base text-muted-foreground hover:text-green-600 transition-colors"
+                {infoItems.map(
+                  ({ icon: Icon, iconBg, iconColor, label, content }) => (
+                    <div
+                      key={label}
+                      className="flex items-start gap-3 sm:gap-4"
                     >
-                      57 312 475 8174
-                    </a>
-                    <p className="text-xs text-green-600 mt-1 font-medium">
-                      ✓ Solo mensajes de WhatsApp, no llamadas.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
-                    <Mail className="text-primary" size={20} />
-                  </div>
-                  <div>
-                    <p className="font-medium text-foreground mb-1 text-sm sm:text-base">
-                      Email
-                    </p>
-                    <a
-                      href="mailto:adrianaramirez_29@hotmail.com"
-                      className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors break-all"
-                    >
-                      adrianaramirez_29@hotmail.com
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
-                    <MapPin className="text-primary" size={20} />
-                  </div>
-                  <div>
-                    <p className="font-medium text-foreground mb-1 text-sm sm:text-base">
-                      Ubicación
-                    </p>
-                    <p className="text-sm sm:text-base text-muted-foreground">
-                      Pitalito, Huila, Colombia
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
-                    <Clock className="text-primary" size={20} />
-                  </div>
-                  <div>
-                    <p className="font-medium text-foreground mb-1 text-sm sm:text-base">
-                      Horario de Atención
-                    </p>
-                    <p className="text-sm sm:text-base text-muted-foreground">
-                      Lunes a Viernes: 8:00 AM - 6:00 PM
-                      <br />
-                      Sábados: 9:00 AM - 3:00 PM
-                    </p>
-                  </div>
-                </div>
+                      <div
+                        className={`w-10 h-10 sm:w-12 sm:h-12 ${iconBg} rounded-lg flex items-center justify-center shrink-0`}
+                      >
+                        <Icon className={iconColor} size={20} />
+                      </div>
+                      <div>
+                        <p className="font-medium text-foreground mb-1 text-sm sm:text-base">
+                          {label}
+                        </p>
+                        {content}
+                      </div>
+                    </div>
+                  ),
+                )}
               </div>
             </div>
           </div>
-
-          <div>
-            <div className="bg-linear-to-br from-green-50 to-white border-2 border-green-200 rounded-xl sm:rounded-2xl p-6 sm:p-8 md:p-10 shadow-xl">
-              <div className="text-center space-y-4 sm:space-y-6">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto shadow-lg">
-                  <MessageCircle className="text-white" size={36} />
+          {/* appointment cards */}
+          <div className="flex flex-col gap-4 sm:gap-5">
+            {/* presencial */}
+            <div className="flex-1 bg-linear-to-br from-green-50 to-white border-2 border-green-200  rounded-xl sm:rounded-2xl p-5 sm:p-7 shadow-lg">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-11 h-11 bg-green-500 rounded-xl flex items-center justify-center shadow-md shrink-0">
+                  <MessageCircle className="text-white" size={22} />
                 </div>
-
-                <div className="space-y-2 sm:space-y-3">
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
-                    ¡Agenda Tu Cita por WhatsApp!
+                <div>
+                  <h3 className="text-base sm:text-lg font-bold text-foreground leading-tight">
+                    Cita Presencial
                   </h3>
-                  <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-md mx-auto leading-relaxed">
-                    Escríbenos y con gusto te atenderemos. Respondemos
-                    rápidamente para agendar tu cita.
+                  <p className="text-xs text-muted-foreground">
+                    Consultorio en Pitalito, Huila - Colombia
                   </p>
                 </div>
-
-                <div className="bg-white rounded-lg p-4 sm:p-6 shadow-md">
-                  <p className="text-xs sm:text-sm text-muted-foreground mb-3 sm:mb-4">
-                    Horario de atención por WhatsApp:
-                  </p>
-                  <div className="space-y-1.5 sm:space-y-2 text-sm sm:text-base text-foreground">
-                    <p>📅 Lunes a Viernes: 8:00 AM - 6:00 PM</p>
-                    <p>📅 Sábados: 9:00 AM - 3:00 PM</p>
-                  </div>
-                </div>
-
-                <a
-                  href={whatsappUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group inline-flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white px-8 sm:px-10 md:px-12 py-4 sm:py-5 rounded-xl sm:rounded-2xl transition-all duration-300 shadow-2xl hover:shadow-green-500/50 hover:scale-105 w-full sm:w-auto"
-                >
-                  <MessageCircle
-                    className="group-hover:scale-110 transition-transform"
-                    size={28}
-                  />
-                  <span className="text-base sm:text-lg md:text-xl font-semibold">
-                    Escribir por WhatsApp
-                  </span>
-                </a>
-
-                <p className="text-xs sm:text-sm text-muted-foreground italic">
-                  💬 Respuesta rápida y garantizada en horario de atención
-                </p>
               </div>
+
+              <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed mb-4">
+                Agenda tu sesión cara a cara en nuestro espacio privado y
+                acondicionado. Atención personalizada en un ambiente seguro y
+                confidencial.
+              </p>
+
+              <a
+                href={presencialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-center gap-2.5 bg-green-500 hover:bg-green-600 text-white px-6 py-3.5 rounded-xl transition-all duration-300 shadow-lg hover:shadow-green-500/40 hover:scale-[1.02] w-full font-semibold text-sm sm:text-base"
+              >
+                <MessageCircle
+                  className="group-hover:scale-110 transition-transform shrink-0"
+                  size={20}
+                />
+                Agendar Cita Presencial
+              </a>
             </div>
+
+            {/* virtual */}
+            <div className="flex-1 bg-linear-to-br from-indigo-50 to-white border-2 border-indigo-200 rounded-xl sm:rounded-2xl p-5 sm:p-7 shadow-lg">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-11 h-11 bg-indigo-600 rounded-xl flex items-center justify-center shadow-md shrink-0">
+                  <Video className="text-white" size={22} />
+                </div>
+                <div>
+                  <h3 className="text-base sm:text-lg font-bold text-foreground leading-tight">
+                    Cita Virtual
+                  </h3>
+                  <p className="text-xs text-muted-foreground">
+                    Videollamada · Desde cualquier lugar
+                  </p>
+                </div>
+              </div>
+
+              <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed mb-4">
+                Recibe acompañamiento profesional sin salir de casa. Sesiones
+                individuales, de pareja, familiares o grupales en línea con la
+                misma calidad clínica.
+              </p>
+
+              <a
+                href={virtualUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-center gap-2.5 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3.5 rounded-xl transition-all duration-300 shadow-lg hover:shadow-indigo-500/40 hover:scale-[1.02] w-full font-semibold text-sm sm:text-base"
+              >
+                <Video
+                  className="group-hover:scale-110 transition-transform shrink-0"
+                  size={20}
+                />
+                Agendar Cita Virtual
+              </a>
+            </div>
+
+            <p className="text-center text-xs text-muted-foreground italic px-2">
+              💬 Ambos botones abren WhatsApp con un mensaje prediseñado ·
+              Respuesta rápida en horario de atención
+            </p>
           </div>
         </div>
       </div>
