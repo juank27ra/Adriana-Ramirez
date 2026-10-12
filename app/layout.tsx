@@ -16,8 +16,7 @@ export const metadata: Metadata = {
   applicationName: "Dra. Luz Adriana Ramírez P.",
 
   title: {
-    default:
-      "Dra. Luz Adriana Ramírez | Psicóloga Clínica y Neuropsicóloga en Pitalito, Huila",
+    default: "Dra. Luz Adriana Ramírez | Psicóloga Clínica y Neuropsicóloga",
     template: "%s | Psicóloga en Pitalito",
   },
 
@@ -40,6 +39,7 @@ export const metadata: Metadata = {
     "adicciones",
     "consumo de sustancias",
     "drogadicción",
+    "neuropsicóloga",
   ],
 
   authors: [

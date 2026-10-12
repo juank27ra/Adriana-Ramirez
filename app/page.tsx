@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import Locations from "@/components/Locations";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppBotton";
+import VirtualAttention from "@/components/VirtualAttention";
 import Contact from "@/components/Contact";
 import { Analytics } from "@vercel/analytics/next";
 
@@ -17,6 +18,7 @@ export default function Page() {
       <Header />
       <Hero />
       <Services />
+      <VirtualAttention />
       <Education />
       <Testimonials />
       <Contact />
