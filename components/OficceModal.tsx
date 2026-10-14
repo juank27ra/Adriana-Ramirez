@@ -82,6 +82,7 @@ export default function OfficeModal({ isOpen, onClose }: OfficeModalProps) {
 
     return () => window.removeEventListener("keydown", handleEsc);
   }, [onClose]);
+
   return (
     <Modal
       isOpen={isOpen}
@@ -134,6 +135,9 @@ export default function OfficeModal({ isOpen, onClose }: OfficeModalProps) {
           <Image
             src={mainOfficeImage.src}
             alt={mainOfficeImage.alt}
+            preload
+            loading="eager"
+            fetchPriority="high"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent" />
@@ -153,6 +157,9 @@ export default function OfficeModal({ isOpen, onClose }: OfficeModalProps) {
             <Image
               src={img.src}
               alt={img.alt}
+              preload
+              loading="eager"
+              fetchPriority="high"
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-linear-to-t from-black/55 via-transparent to-transparent" />
