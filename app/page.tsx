@@ -2,6 +2,7 @@
 import Hero from "@/components/Hero";
 import Header from "@/components/Header";
 import Services from "@/components/Services";
+import VirtualCTA from "@/components/VirtualCta";
 import Education from "@/components/Education";
 import Testimonials from "@/components/Testimonials";
 import Locations from "@/components/Locations";
@@ -17,6 +18,7 @@ export default function Page() {
       <Analytics />
       <Header />
       <Hero />
+      <VirtualCTA />
       <Services />
       <VirtualAttention />
       <Education />
