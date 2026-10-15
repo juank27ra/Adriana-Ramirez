@@ -48,10 +48,26 @@ export default function Footer() {
               </li>
               <li>
                 <button
+                  onClick={() => scrollToSection("virtualCTA")}
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-xs sm:text-sm"
+                >
+                  Pagar sesión virtual
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => scrollToSection("servicios")}
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-xs sm:text-sm"
                 >
                   Servicios
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection("atencion-virtual")}
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-xs sm:text-sm"
+                >
+                  Modalidades de Atención
                 </button>
               </li>
               <li>

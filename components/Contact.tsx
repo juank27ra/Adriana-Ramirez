@@ -12,17 +12,17 @@ import {
 import PaymentModal from "./PaymentModal";
 import { useState } from "react";
 
-const PHONENUMBER = process.env.WHATSAPP_NUMBER;
+export const PHONENUMBER: string | undefined =
+  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
 function whatsappUrl(message: string) {
   return `https://wa.me/${PHONENUMBER}?text=${encodeURIComponent(message)}`;
 }
-
-const presencialUrl = whatsappUrl(
-  "Hola Dra. Luz Adriana Ramirez P., me gustaría agendar una cita PRESENCIAL. ¿Cuál es su disponibilidad?",
-);
-const virtualUrl = whatsappUrl(
-  "Hola Dra. Luz Adriana Ramirez P., me gustaría agendar una cita VIRTUAL. ¿Cuál es su disponibilidad?",
-);
+export const messageVirtual =
+  "Hola Dra. Luz Adriana Ramirez P. me gustaría agendar una cita VIRTUAL. ¿Cuál es su disponibilidad?";
+const messagePresencial =
+  "Hola Dra. Luz Adriana Ramirez P. me gustaría agendar una cita PRESENCIAL. ¿Cuál es su disponibilidad?";
+const presencialUrl = whatsappUrl(messagePresencial);
+const virtualUrl = whatsappUrl(messageVirtual);
 
 const infoItems = [
   {
@@ -221,7 +221,7 @@ export default function Contact() {
         </div>
       </section>
       {/* international strip */}
-      <section className="py-8 sm:py-10 bg-linear-to-br from-slate-800 to-slate-900 dark:from-slate-900 dark:to-black border-t border-slate-700">
+      <section className="py-8 sm:py-10 bg-linear-to-br from-slate-800 to-slate-900 border-t border-slate-700">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center gap-5 sm:gap-8 text-center sm:text-left">
             <div className="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center shrink-0 ring-1 ring-white/20 shadow-lg">

@@ -8,6 +8,11 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { Modal } from "./Modal";
+import { PHONENUMBER, messageVirtual } from "./Contact";
+
+if (!PHONENUMBER) {
+  throw new Error("Falta configurar el número de whatsapp");
+}
 
 interface PaymentModalProps {
   isOpen: boolean;
@@ -16,12 +21,7 @@ interface PaymentModalProps {
 
 // Reemplazar este enlace de pago real de Wompi
 const WOMPI_PAYMENT_URL = "https://checkout.wompi.co/l/TU_LINK_DE_PAGO";
-
-const WHATSAPP_VIRTUAL_URL =
-  "https://wa.me/573001234567?text=" +
-  encodeURIComponent(
-    "Hola Dra. Luz Adriana Ramirez P, me gustaría agendar una cita VIRTUAL. ¿Cuál es su disponibilidad?",
-  );
+const WHATSAPP_VIRTUAL_URL = `https://wa.me/${PHONENUMBER}?text=${encodeURIComponent(messageVirtual)}`;
 
 const steps = [
   {

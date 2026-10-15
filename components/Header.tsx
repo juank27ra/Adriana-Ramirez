@@ -32,6 +32,7 @@ export default function Header() {
   const navItems = [
     { id: "inicio", label: "Inicio" },
     { id: "servicios", label: "Servicios" },
+    { id: "atencion-virtual", label: "Modalidades" },
     { id: "estudios", label: "Estudios" },
     { id: "testimonios", label: "Testimonios" },
     { id: "contacto", label: "Contacto" },

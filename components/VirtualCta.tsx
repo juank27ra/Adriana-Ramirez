@@ -2,32 +2,32 @@
 import { useState } from "react";
 import { Video, CreditCard, MessageCircle, Sparkles } from "lucide-react";
 import PaymentModal from "./PaymentModal";
+import { messageVirtual, PHONENUMBER } from "./Contact";
 
-const WHATSAPP_VIRTUAL_URL =
-  "https://wa.me/573001234567?text=" +
-  encodeURIComponent(
-    "Hola Dra. Luz Adriana, me gustaría agendar una cita VIRTUAL. ¿Cuál es su disponibilidad?",
-  );
+if (!PHONENUMBER) {
+  throw new Error("Falta configurar el número de whatsapp");
+}
+const WHATSAPP_VIRTUAL_URL = `https://wa.me/${PHONENUMBER}?text=${encodeURIComponent(messageVirtual)}`;
 
 export default function VirtualCTA() {
   const [isPaymentOpen, setIsPaymentOpen] = useState(false);
 
   return (
     <>
-      <section className="py-10 sm:py-12 bg-gradient-to-r from-indigo-600 via-indigo-700 to-blue-800 dark:from-indigo-900 dark:via-indigo-800 dark:to-blue-900">
+      <section
+        id="virtualCTA"
+        className="py-10 sm:py-12 bg-linear-to-r from-indigo-600 via-indigo-700 to-blue-800 "
+      >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-10">
             {/* icon + text */}
             <div className="flex items-center gap-4 flex-1 min-w-0">
-              <div className="w-14 h-14 sm:w-16 sm:h-16 bg-white/15 backdrop-blur-sm rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg ring-1 ring-white/20">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 bg-white/15 backdrop-blur-sm rounded-2xl flex items-center justify-center shrink-0 shadow-lg ring-1 ring-white/20">
                 <Video className="text-white" size={28} />
               </div>
               <div className="min-w-0">
                 <div className="flex items-center gap-2 mb-1">
-                  <Sparkles
-                    className="text-yellow-300 flex-shrink-0"
-                    size={14}
-                  />
+                  <Sparkles className="text-yellow-300 shrink-0" size={14} />
                   <span className="text-yellow-300 text-xs font-semibold uppercase tracking-wider">
                     Sesión Virtual
                   </span>
@@ -43,13 +43,13 @@ export default function VirtualCTA() {
             </div>
 
             {/* actions */}
-            <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row gap-3 w-full md:w-auto flex-shrink-0">
+            <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row gap-3 w-full md:w-auto shrink-0">
               <button
                 onClick={() => setIsPaymentOpen(true)}
                 className="group flex items-center justify-center gap-2.5 bg-white text-indigo-700 hover:bg-indigo-50 px-6 py-3.5 rounded-xl font-bold text-sm sm:text-base transition-all duration-300 shadow-xl hover:shadow-white/30 hover:scale-[1.03] whitespace-nowrap"
               >
                 <CreditCard
-                  className="group-hover:scale-110 transition-transform flex-shrink-0"
+                  className="group-hover:scale-110 transition-transform shrink-0"
                   size={19}
                 />
                 Pago Seguro

@@ -78,7 +78,6 @@ export default function Services() {
                 <Image
                   src={service.image}
                   alt={service.alt}
-                  fill
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent" />
