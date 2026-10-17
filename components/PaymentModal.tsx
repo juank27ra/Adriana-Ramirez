@@ -8,11 +8,9 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { Modal } from "./Modal";
-import { PHONENUMBER, messageVirtual } from "./Contact";
+import { messageVirtual } from "./Contact";
 
-if (!PHONENUMBER) {
-  throw new Error("Falta configurar el número de whatsapp");
-}
+const PHONENUMBER = "573124758174";
 
 interface PaymentModalProps {
   isOpen: boolean;
