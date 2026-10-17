@@ -2,11 +2,9 @@
 import { useState } from "react";
 import { Video, CreditCard, MessageCircle, Sparkles } from "lucide-react";
 import PaymentModal from "./PaymentModal";
-import { messageVirtual, PHONENUMBER } from "./Contact";
+import { messageVirtual } from "./Contact";
 
-if (!PHONENUMBER) {
-  throw new Error("Falta configurar el número de whatsapp");
-}
+const PHONENUMBER = "573124758174";
 const WHATSAPP_VIRTUAL_URL = `https://wa.me/${PHONENUMBER}?text=${encodeURIComponent(messageVirtual)}`;
 
 export default function VirtualCTA() {
@@ -62,7 +60,7 @@ export default function VirtualCTA() {
                 className="group flex items-center justify-center gap-2.5 bg-white/10 hover:bg-white/20 text-white border border-white/30 hover:border-white/50 px-6 py-3.5 rounded-xl font-semibold text-sm sm:text-base transition-all duration-300 whitespace-nowrap"
               >
                 <MessageCircle
-                  className="group-hover:scale-110 transition-transform flex-shrink-0"
+                  className="group-hover:scale-110 transition-transform shrink-0"
                   size={19}
                 />
                 <span className="leading-tight text-center">
