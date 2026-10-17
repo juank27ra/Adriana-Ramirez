@@ -12,8 +12,7 @@ import {
 import PaymentModal from "./PaymentModal";
 import { useState } from "react";
 
-export const PHONENUMBER: string | undefined =
-  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
+export const PHONENUMBER: string | undefined = process.env.WHATSAPP_NUMBER;
 function whatsappUrl(message: string) {
   return `https://wa.me/${PHONENUMBER}?text=${encodeURIComponent(message)}`;
 }
