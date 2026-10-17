@@ -87,9 +87,9 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: "../app/favicon.ico",
-    shortcut: "../app/favicon.ico",
-    apple: "../app/favicon.ico",
+    icon: "./app/favicon.ico",
+    shortcut: "./app/favicon.ico",
+    apple: "./app/favicon.ico",
   },
   other: {
     "geo.region": "CO-HUI",
