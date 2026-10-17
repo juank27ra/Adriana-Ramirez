@@ -2,7 +2,7 @@
 import { MapPin, Navigation } from "lucide-react";
 
 export default function Location() {
-  const address = "Pitalito, Huila, Colombia ";
+  const addressCity = "Pitalito, Huila, Colombia ";
   const addressDetail = "Calle 10 # 7 - 43";
   const coordinates = "1.8561870376914285, -76.04613686159725";
 
@@ -31,7 +31,7 @@ export default function Location() {
                       Dirección
                     </h3>
                     <p className="text-muted-foreground text-sm sm:text-base">
-                      {address}
+                      {addressCity}
                     </p>
                     <p className="text-muted-foreground text-sm sm:text-base">
                       {addressDetail}
@@ -78,7 +78,7 @@ export default function Location() {
             </div>
 
             <div className="lg:col-span-2">
-              <div className="bg-muted rounded-lg sm:rounded-xl overflow-hidden shadow-xl h-[300px] sm:h-[400px] md:h-[500px] relative">
+              <div className="bg-muted rounded-lg sm:rounded-xl overflow-hidden shadow-xl h-75 sm:h-100 md:h-125 relative">
                 <iframe
                   src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0!2d-76.0508!3d1.8533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwNTEnMTEuOSJOIDc2wrAwMycwMi45Ilc!5e0!3m2!1ses!2sco!4v1234567890123!5m2!1ses!2sco`}
                   width="100%"
