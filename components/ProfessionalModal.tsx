@@ -26,7 +26,7 @@ const pillars = [
     icon: Heart,
     title: "Vocación desde el inicio",
     description:
-      "La Dra. Luz Adriana Ramírez P. comprende que la psicología es ante todo un compromiso humano pero su vocación se construyó desde temprana edad al buscar respuestas en condiciones físicas y mentales que afectaban su entorno.",
+      "La Dra. Luz Adriana Ramírez P. comprende que la psicología es ante todo un compromiso humano, su vocación se construyó desde temprana edad al buscar respuestas en condiciones físicas, mentales y emocionales que afectaban su entorno.",
   },
   {
     icon: Lightbulb,
@@ -38,7 +38,7 @@ const pillars = [
     icon: Users,
     title: "Raíces en el sur colombiano",
     description:
-      "Establecida en el Huila, Colombia, pero formándose de manera contínua en Latam y Europa conoce de cerca las condiciones socioculturales y demográficas de su comunidad y diversos y variables factores que alteran las condiciones psicológicas y neuropsicológicas de un paciente.",
+      "Establecida en el Huila, Colombia, pero formándose de manera contínua en Latam y Europa conoce de cerca las condiciones socioculturales y demográficas de su comunidad y de otros entornos.",
   },
 ];
 
@@ -161,6 +161,18 @@ const experiences = [
     tagColor:
       "bg-orange-100 dark:bg-orange-900/60 text-orange-600 dark:text-orange-300",
   },
+  {
+    icon: GraduationCap,
+    role: "Conferencista",
+    context: "Educación Superior",
+    color:
+      "bg-amber-50 dark:bg-amber-950/40 border-amber-200 dark:border-amber-800",
+    iconBg: "bg-amber-100 dark:bg-amber-900/60",
+    iconColor: "text-amber-700 dark:text-amber-300",
+    tag: "Educativo",
+    tagColor:
+      "bg-amber-100 dark:bg-amber-900/60 text-amber-700 dark:text-amber-300",
+  },
 ];
 
 export default function ProfessionalModal({
@@ -191,17 +203,19 @@ export default function ProfessionalModal({
           La{" "}
           <strong className="text-primary">Dra. Luz Adriana Ramírez P.</strong>{" "}
           tiene como proposito el servicio, y desde su vocación y pasión por
-          comprender la conducta humana y las condiciones fisiológicas que
-          alteran el comportamiento, siempre se ha caracterizado por ser crítica
-          y buscar causas, síntomas y origen de las condiciones que pueden
-          afectar a una persona. Su interés genuino por entender como las
-          emociones, experiencias, condiciones de salud (física y mental,
-          factores socioemocionales etc.), pueden alterar el bienestar
-          individual y colectivo, es la razón por la que sigue fortaleciendo
-          constante y continuamente su formación académica y clinica, realizando
-          múltiples estudios y especialidades en psicología y neuropsicología,
-          con el objetivo contínuo de brindar un acompañamiento más humano,
-          ético y efectivo, con más de 12 años en sector salud.
+          comprender la conducta humana y las condiciones fisiológicas y
+          Biopsicosociales que alteran el comportamiento, se ha caracterizado
+          por ser de un pensamiento crítico y propositivo que identifique las
+          causas, los síntomas y el origen de las condiciones que pueden afectar
+          a una persona. Su interés genuino por entender como las emociones,
+          experiencias, condiciones de salud (física o mentales, factores
+          socioemocionales etc.), pueden alterar el bienestar individual y
+          colectivo de un paciente y su familia. Esta es la razón por la que
+          sigue fortaleciendo constante y continuamente su formación académica y
+          clinica, realizando múltiples estudios y especialidades en psicología
+          y neuropsicología, con el objetivo contínuo de brindar un
+          acompañamiento más humano, ético y efectivo, que sigue consolidando
+          con más de 12 años de experiencia en el sector de la salud.
         </p>
         <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
           Su camino no ha sido lineal: lo ha tejido desde diferentes roles,

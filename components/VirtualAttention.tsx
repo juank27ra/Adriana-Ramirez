@@ -56,7 +56,7 @@ export default function VirtualAttention() {
             Presencial o Virtual — Tú Eliges
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Pensando en el bienestar de cada paciente, ofrezco acompañamiento
+            Pensando en el bienestar de cada paciente, ofrecemos acompañamiento
             profesional en ambas modalidades para que la distancia nunca sea un
             obstáculo.
           </p>

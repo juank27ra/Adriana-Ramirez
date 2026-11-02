@@ -48,7 +48,7 @@ const features = [
     icon: Users,
     title: "Equipo multidisciplinar",
     description:
-      "El espacio reúne a varios profesionales de la salud y el bienestar que comparten la visión de un acompañamiento integral y humano.",
+      "El espacio reúne a varios profesionales de la salud y otros que comparten la visión por el bienestar y acompañamiento integral y humano de los consultantes.",
   },
   {
     icon: ShieldCheck,
@@ -93,23 +93,23 @@ export default function OfficeModal({ isOpen, onClose }: OfficeModalProps) {
       {/* intro */}
       <div className="mb-6">
         <p className="text-base sm:text-lg text-foreground/90 leading-relaxed mb-3">
-          Hace aproximadamente 10 años, se abre un{" "}
-          <strong className="text-primary">
-            espacio para consulta psicológica en el territorio Laboyano,{" "}
-          </strong>
-          con el propósito de prestar un servicio que mostrara diversas opciones
-          para el bienestar en salud mental y la activación de rutas de
-          atención, gracias a la gran acogida y el cariño de la gente, fuimos
-          descubriendo sus necesidades y, por supuesto, motivándonos a crecer
-          para dar respuesta a tantos interrogantes. Gracias a los consultantes,
-          instituciones, profesionales y amigos que confiaron en nosotros y que
-          se encargaron de vos a vos recomendar nuestro servicios, fuimos
-          creciendo hasta consolidar el equipo que hoy somos.
+          Hace aproximadamente 10 años, se abre un espacio para{" "}
+          <strong className="text-primary">consulta psicológica </strong>
+          en el territorio Laboyano en salud mental y emocional con o sin
+          activación de la ruta de atención con el propósito de prestar un
+          servicio que mostrara diversas opciones para el bienestar en salud
+          mental y la activación de rutas de atención, gracias a la gran acogida
+          y el cariño de la gente, fuimos descubriendo sus necesidades y, por
+          supuesto, motivándonos a crecer para dar respuesta a tantos
+          interrogantes. Gracias a los consultantes, instituciones,
+          profesionales y amigos que confiaron en nosotros y que se encargaron
+          de vos a vos recomendar nuestros servicios, fuimos creciendo hasta
+          consolidar el equipo que hoy somos.
         </p>
         <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
           Quienes somos? El consultorio está conformado por un equipo de
           profesionales con calidad humana, (abogados, contadores, auxiliares,
-          etc. ) dedicado al servicio, en cabeza de la doctora Luz Adriana
+          etc.) dedicado al servicio, en cabeza de la doctora Luz Adriana
           Ramírez P. ayudan a la integración y el manejo de acuerdo de las
           normativas vigentes en el ámbito clínico, jurídico y organizacional.
           El consultorio es una unidad promotora de bienestar que está
