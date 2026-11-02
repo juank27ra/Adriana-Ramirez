@@ -13,14 +13,14 @@ const services = [
     alt: "Valoración psicológica y neuropsicológica",
     title: "Valoración Psicológica y Neuropsicológica",
     description:
-      "Evaluación y diagnostico de las condiciones psicológicas y neuropsicológicas del paciente.",
+      "Evaluación y diagnóstico de las condiciones psicológicas y neuropsicológicas del paciente.",
   },
   {
     image: DireccionGestion,
     alt: "Dirección y gestión de recursos humanos",
     title: "Dirección y Gestión de Recursos Humanos",
     description:
-      "Desarrollo estrategico enfocado en atraer, desarrollar y retener el talento para alcanzar los objetivos organizacionales.",
+      "Desarrollo estratégico enfocado en atraer, desarrollar y retener el talento para alcanzar los objetivos organizacionales.",
   },
   {
     image: psicologiaClinica,
@@ -63,8 +63,8 @@ export default function Services() {
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             Diagnóstico, evaluación, tratamiento y acompañamiento de las
             condiciones psicológicas y neuropsicológicas. conferencias,
-            capacitaciones, asesorías psicológicas (Jurídicas y organizacionales
-            entre otros) entre otros.
+            capacitaciones, asesorías psicológicas (Jurídicas y
+            organizacionales) entre otros.
           </p>
         </div>
 
