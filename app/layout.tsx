@@ -24,6 +24,8 @@ export const metadata: Metadata = {
     "Atención psicológica y neuropsicológica en Pitalito, Huila. Terapia para ansiedad, depresión, estrés, duelo, autoestima y gestión emocional con enfoque profesional y humano.",
 
   keywords: [
+    "psicóloga Online",
+    "psicoterapia Online",
     "psicóloga en Pitalito",
     "psicóloga clínica Pitalito",
     "neuropsicóloga Pitalito",

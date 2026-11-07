@@ -57,6 +57,12 @@ const testimonials = [
     text: " Desde el sentido humano y el acompañamiento cercano de la Dra., he aprendido a comprenderme mejor, construir nuevas perspectivas y hacer frente a las situaciones de la vida, incluso aquellas que a veces cuestan y nos desafían. Ir a terapia cambió la forma en la que veía las cosas y me ha permitido crecer, sanar y encontrar nuevas herramientas para avanzar. Gracias Dra. por acompañarme con tanta empatía, respeto y humanidad.",
     rating: 5,
   },
+  {
+    name: "Atte.  Ana kamila Quintero",
+    role: " ",
+    text: " Llegué a consulta después de 5 años diagnosticada con trastorno mixto de ansiedad y depresión, y me sentía atrapada y creía que jamás lograría salir de ese estado. Después de un tiempo acompañada y en tratamiento psicoterapéutico por la doctora Luz Adriana Ramírez hoy me siento excelente, muy bien y profundamente feliz por el cambio que he conseguido. He logrado superar muchísimas cosas que nunca imaginé poder superar. Ella es una excelente profesional y la recomendaría con todo mi corazón. ",
+    rating: 5,
+  },
 ];
 
 export default function Testimonials() {

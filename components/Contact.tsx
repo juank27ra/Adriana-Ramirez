@@ -98,7 +98,7 @@ export default function Contact() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10 sm:mb-12 md:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-3 sm:mb-4">
-              Contáctame
+              Contáctanos
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
               Dar el primer paso puede cambiar tu vida. Estamos aquí para

@@ -2,11 +2,11 @@
 import { Users, ShieldCheck, Sparkles, Building2 } from "lucide-react";
 import { Modal } from "./Modal";
 import { useEffect } from "react";
-import Recepción from "../app/assets/recepción.jpeg";
+import Recepción from "../app/assets/recepción.webp";
 import entrada from "../app/assets/entrada.jpeg";
-import SalaEspera from "../app/assets/sala de espera.jpeg";
-import Consultorio from "../app/assets/consultorio.jpeg";
-import Caffe from "../app/assets/caffe.jpeg";
+import SalaEspera from "../app/assets/sala de espera.webp";
+import Consultorio from "../app/assets/consultorio.webp";
+import Caffe from "../app/assets/caffe.webp";
 import Image from "next/image";
 
 interface OfficeModalProps {
