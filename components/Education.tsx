@@ -12,8 +12,7 @@ const education = [
   {
     icon: Brain,
     year: "2026",
-    title:
-      "Maestrante en Neurociencia e investigación en la imagen neurológica. ",
+    title: "Maestrante en Neurociencia e investigación en imagen neurológica. ",
     institution: "España",
     description: "",
   },
@@ -41,7 +40,7 @@ const education = [
   {
     icon: BookOpenText,
     year: "2018",
-    title: "Magister en Dirección de Recursos Humanos",
+    title: "Magister en Dirección y Gestión de Recursos Humanos",
     institution: "España",
     description: "",
   },

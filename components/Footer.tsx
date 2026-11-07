@@ -137,7 +137,7 @@ export default function Footer() {
             </h3>
             <div className="flex gap-3 sm:gap-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/consultoriodraadrianaramirezp?exln=ZnFla29ub2o4cWM2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-full flex items-center justify-center transition-all hover:scale-110"

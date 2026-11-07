@@ -207,7 +207,7 @@ export default function ProfessionalModal({
           Biopsicosociales que alteran el comportamiento, se ha caracterizado
           por ser de un pensamiento crítico y propositivo que identifique las
           causas, los síntomas y el origen de las condiciones que pueden afectar
-          a una persona. Su interés genuino por entender como las emociones,
+          a una persona. Su interés genuino por entender cómo las emociones,
           experiencias, condiciones de salud (física o mentales, factores
           socioemocionales etc.), pueden alterar el bienestar individual y
           colectivo de un paciente y su familia. Esta es la razón por la que
@@ -293,7 +293,7 @@ export default function ProfessionalModal({
           Creo profundamente en la capacidad de cada persona u organización para
           transformarse. Mi rol es acompañar profesionalmente ese proceso con
           respeto y brindar las herramientas que ayuden a identificar y
-          solucionar la situaciones que les aquejan a cada uno.
+          solucionar las situaciones que les aquejan a cada uno.
         </p>
         <footer className="mt-2 text-xs text-muted-foreground font-medium">
           — Dra. Luz Adriana Ramírez P.
